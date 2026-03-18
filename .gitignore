@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Streamlit
+.streamlit/
+static/
+
+# Large Model Files (Uncomment if you want to exclude them from GitHub)
+# trained_model.h5
+# trained_model.keras
+
+# OS Files
+.DS_Store
+Thumbs.db
