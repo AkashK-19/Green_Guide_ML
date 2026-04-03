@@ -1,0 +1,866 @@
+[
+  {
+    "title": "Tulsi",
+    "scientific": "Ocimum sanctum",
+    "category": "Sacred Herb",
+    "description": "A sacred plant in Hindu tradition, Tulsi is revered as the \"Queen of Herbs\" for its remarkable healing properties and spiritual significance. This aromatic herb has been used in Ayurvedic medicine for thousands of years.",
+    "region": "India, Southeast Asia",
+    "season": "Year-round (best in spring-summer)",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Immunity booster", "Anti-stress", "Respiratory health", "Fever reducer", "Antioxidant properties"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-shield-alt", "title": "Immune Booster", "description": "Rich in antioxidants and essential oils that strengthen immunity and protect against infections"},
+      {"icon": "fas fa-lungs", "title": "Respiratory Relief", "description": "Effective for cough, cold, asthma management, and clearing respiratory passages"},
+      {"icon": "fas fa-spa", "title": "Stress Reducer", "description": "Adaptogenic properties help combat stress, anxiety, and promote mental clarity"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Plant seeds in well-draining soil with good sunlight exposure. Seeds germinate in 7-10 days.", "tips": "Soak seeds overnight for better germination rates"},
+      {"icon": "fas fa-tint", "title": "Watering", "description": "Keep soil consistently moist but not waterlogged. Water at the base to prevent fungal diseases.", "tips": "Morning watering is ideal to allow foliage to dry during the day"},
+      {"icon": "fas fa-cut", "title": "Harvesting", "description": "Pick leaves regularly to encourage bushy growth. Harvest in the morning for best flavor.", "tips": "Pinch off flower buds to promote more leaf growth and extend plant life"}
+    ],
+    "traditionalUses": ["Religious ceremonies", "Herbal teas", "Aromatherapy", "Daily worship rituals"],
+    "seasonalCare": {"spring": ["Prune and fertilize", "Start new cuttings"], "summer": ["Water twice daily", "Protect from extreme heat"], "monsoon": ["Ensure good drainage", "Watch for fungal diseases"], "winter": ["Reduce watering", "Protect from frost"]},
+    "quickFacts": {"family": "Lamiaceae", "nativeRegion": "Indian Subcontinent", "lifespan": "2-3 years", "harvestTime": "Year-round", "sunRequirement": "Full sun (6-8 hours)", "waterNeeds": "Moderate to high", "soilType": "Well-draining, fertile", "propagation": "Seeds or cuttings"},
+    "ayurvedicProperties": {"rasa": "Pungent, Bitter", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Kapha and Vata"},
+    "translations": {"en": {"title": "Holy Basil", "scientific": "Ocimum sanctum", "description": "A sacred plant in Hindu tradition, Tulsi is revered as the \"Queen of Herbs\" for its remarkable healing properties and spiritual significance."}, "mr": {"title": "तुळशी", "scientific": "ओसिमम सँक्टम", "description": "हिंदू परंपरेत पवित्र मानली जाणारी तुळशी औषधी वनस्पतींची राणी म्हणून ओळखली जाते."}}
+  },
+  {
+    "title": "Haldi",
+    "scientific": "Curcuma longa",
+    "category": "Root Spice",
+    "description": "The golden spice of India, turmeric is celebrated for its powerful anti-inflammatory and antioxidant properties. Its active compound, curcumin, has been extensively researched for medicinal benefits.",
+    "region": "India, South Asia",
+    "season": "Planted in monsoon, harvested in winter",
+    "plantType": "Perennial Rhizome",
+    "healthBenefits": ["Anti-inflammatory", "Antioxidant", "Digestive aid", "Skin health", "Joint pain relief"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-fire", "title": "Anti-Inflammatory", "description": "Curcumin reduces inflammation throughout the body, helping with arthritis and joint pain"},
+      {"icon": "fas fa-stomach", "title": "Digestive Health", "description": "Stimulates bile production, soothes digestive issues, and improves gut health"},
+      {"icon": "fas fa-hand-sparkles", "title": "Skin Care", "description": "Natural antiseptic for wounds, helps with acne, and promotes glowing skin"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-hand-holding-seedling", "title": "Rhizome Planting", "description": "Plant fresh rhizomes 2-3 inches deep in well-prepared soil rich in organic matter.", "tips": "Choose rhizomes with visible buds for better sprouting success"},
+      {"icon": "fas fa-calendar-alt", "title": "Growth Period", "description": "Requires 7-10 months to mature. Keep soil consistently moist during growing season.", "tips": "Mulch heavily to retain moisture and suppress weeds"},
+      {"icon": "fas fa-shovel", "title": "Harvesting", "description": "Dig up when leaves turn yellow and dry. Cure rhizomes in shade for 1-2 weeks.", "tips": "Save some rhizomes for replanting next season"}
+    ],
+    "traditionalUses": ["Cooking spice", "Natural dye", "Wedding ceremonies", "Medicinal paste", "Golden milk"],
+    "seasonalCare": {"spring": ["Plant rhizomes", "Apply organic fertilizer"], "summer": ["Maintain consistent moisture", "Mulch heavily"], "monsoon": ["Peak growing season", "Weed regularly"], "winter": ["Stop watering", "Harvest when leaves dry"]},
+    "quickFacts": {"family": "Zingiberaceae", "nativeRegion": "Southwest India", "lifespan": "Perennial (harvested annually)", "harvestTime": "7-10 months after planting", "sunRequirement": "Partial shade", "waterNeeds": "High during growing season", "soilType": "Rich, loamy, well-draining", "propagation": "Rhizome division"},
+    "ayurvedicProperties": {"rasa": "Bitter, Pungent", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Turmeric", "scientific": "Curcuma longa", "description": "The golden spice of India, turmeric is celebrated for its powerful anti-inflammatory and antioxidant properties."}, "mr": {"title": "हळद", "scientific": "कुर्कुमा लोंगा", "description": "भारताची सोनेरी मसाला म्हणून ओळखली जाणारी हळद शक्तिशाली दाहक-विरोधी गुणधर्मांसाठी प्रसिद्ध आहे."}}
+  },
+  {
+    "title": "Ashwagandha",
+    "scientific": "Withania somnifera",
+    "category": "Medicinal Herb",
+    "description": "Known as \"Indian Ginseng,\" Ashwagandha is one of the most powerful herbs in Ayurvedic healing. It's classified as an adaptogen, helping the body manage stress and restore balance.",
+    "region": "India, Middle East, Africa",
+    "season": "Sown in spring, harvested in winter",
+    "plantType": "Perennial Shrub",
+    "healthBenefits": ["Stress relief", "Energy booster", "Cognitive function", "Hormonal balance", "Muscle strength"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-brain", "title": "Adaptogenic Power", "description": "Reduces cortisol levels, manages chronic stress, and promotes mental resilience"},
+      {"icon": "fas fa-bolt", "title": "Vitality Enhancer", "description": "Improves energy, stamina, endurance, and overall physical performance"},
+      {"icon": "fas fa-head-side-brain", "title": "Brain Health", "description": "Supports memory, concentration, and cognitive function in all age groups"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-leaf", "title": "Seed Starting", "description": "Sow seeds in spring in nursery beds or pots. Germination takes 2-3 weeks.", "tips": "Use fresh seeds for better germination; older seeds have lower success rates"},
+      {"icon": "fas fa-arrows-alt", "title": "Transplanting", "description": "Move seedlings to main field after 6-8 weeks when they're 4-6 inches tall.", "tips": "Space plants 12-18 inches apart for optimal root development"},
+      {"icon": "fas fa-root", "title": "Root Harvest", "description": "Dig roots after 150-180 days when leaves start yellowing. Wash and dry properly.", "tips": "Harvest in dry weather for easier cleaning and better storage"}
+    ],
+    "traditionalUses": ["Rasayana therapy", "Powder supplements", "Medicinal oils", "Strength tonic"],
+    "seasonalCare": {"spring": ["Sow seeds", "Prepare soil with compost"], "summer": ["Water regularly", "Stake tall plants"], "monsoon": ["Reduce watering", "Ensure drainage"], "winter": ["Harvest roots", "Dry and store properly"]},
+    "quickFacts": {"family": "Solanaceae", "nativeRegion": "India, Middle East", "lifespan": "Perennial (harvested annually)", "harvestTime": "5-6 months", "sunRequirement": "Full sun", "waterNeeds": "Low to moderate", "soilType": "Sandy, well-draining", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Bitter, Astringent, Sweet", "virya": "Heating", "vipaka": "Sweet", "dosha": "Balances Vata and Kapha"},
+    "translations": {"en": {"title": "Ashwagandha", "scientific": "Withania somnifera", "description": "Known as Indian Ginseng, Ashwagandha is one of the most powerful herbs in Ayurvedic healing."}, "mr": {"title": "अश्वगंधा", "scientific": "विथानिया सोम्नीफेरा", "description": "भारतीय जिनसेंग म्हणून ओळखला जाणारा अश्वगंधा आयुर्वेदातील सर्वात शक्तिशाली औषधी वनस्पतींपैकी एक आहे."}}
+  },
+  {
+    "title": "Neem",
+    "scientific": "Azadirachta indica",
+    "category": "Tree",
+    "description": "The \"Village Pharmacy\" of India, neem is a versatile medicinal tree with antibacterial, antiviral, and antifungal properties. Every part of the tree has therapeutic uses.",
+    "region": "Indian Subcontinent",
+    "season": "Year-round evergreen",
+    "plantType": "Perennial Tree",
+    "healthBenefits": ["Antibacterial", "Skin purifier", "Dental health", "Blood purification", "Immune support"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-hand-holding-medical", "title": "Skin Treatment", "description": "Effective for acne, eczema, psoriasis, and fungal infections due to antibacterial properties"},
+      {"icon": "fas fa-tooth", "title": "Oral Health", "description": "Natural toothbrush, antibacterial mouthwash, prevents cavities and gum disease"},
+      {"icon": "fas fa-droplet", "title": "Blood Purifier", "description": "Detoxifies blood, supports liver function, and improves overall skin health"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Planting", "description": "Sow fresh seeds immediately after collection. Germination occurs in 1-3 weeks.", "tips": "Seeds lose viability quickly; plant within a week of collection"},
+      {"icon": "fas fa-sun", "title": "Sapling Care", "description": "Protect young plants from harsh sun and frost. Water regularly for first 2 years.", "tips": "Use stake support in windy areas; protect from cattle grazing"},
+      {"icon": "fas fa-tree", "title": "Mature Tree", "description": "Requires minimal care once established. Drought-tolerant and pest-resistant.", "tips": "Prune dead branches annually; use fallen leaves as mulch"}
+    ],
+    "traditionalUses": ["Natural pesticide", "Medicinal oil", "Ayurvedic formulations", "Dental care", "Skin treatments"],
+    "seasonalCare": {"spring": ["Prune dead branches", "Apply organic mulch"], "summer": ["Water young trees", "Mature trees drought-tolerant"], "monsoon": ["Natural watering sufficient", "Check for pests"], "winter": ["Collect seeds", "Minimal care needed"]},
+    "quickFacts": {"family": "Meliaceae", "nativeRegion": "Indian Subcontinent", "lifespan": "150-200 years", "harvestTime": "Leaves year-round, fruits in summer", "sunRequirement": "Full sun", "waterNeeds": "Low (drought-tolerant)", "soilType": "Well-draining, tolerates poor soil", "propagation": "Seeds, cuttings"},
+    "ayurvedicProperties": {"rasa": "Bitter, Astringent", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Neem", "scientific": "Azadirachta indica", "description": "The Village Pharmacy of India, neem is a versatile medicinal tree with antibacterial properties."}, "mr": {"title": "कडुनिंब", "scientific": "अझाडिराक्टा इंडिका", "description": "भारताची गावातील औषधालय म्हणून ओळखले जाणारे कडुनिंब बहुउपयोगी औषधी वृक्ष आहे."}}
+  },
+  {
+    "title": "Amla",
+    "scientific": "Phyllanthus emblica",
+    "category": "Tree",
+    "description": "Amla is a powerhouse of Vitamin C and antioxidants, revered in Ayurveda as a rejuvenating fruit. It's one of the key ingredients in the famous Ayurvedic formula, Triphala.",
+    "region": "India, Southeast Asia",
+    "season": "Fruits in winter (November-February)",
+    "plantType": "Deciduous Tree",
+    "healthBenefits": ["High Vitamin C", "Anti-aging", "Hair health", "Digestive support", "Eye health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-shield-virus", "title": "Immunity Booster", "description": "Extremely high Vitamin C content strengthens immune system and fights infections"},
+      {"icon": "fas fa-user-hair", "title": "Hair Tonic", "description": "Promotes hair growth, prevents premature graying, and strengthens hair follicles"},
+      {"icon": "fas fa-stomach", "title": "Digestive Aid", "description": "Improves metabolism, relieves constipation, and supports healthy gut flora"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-cloud-rain", "title": "Sapling Planting", "description": "Plant during monsoon season in well-prepared pits with organic matter.", "tips": "Add compost and neem cake to planting pit for better establishment"},
+      {"icon": "fas fa-hourglass-half", "title": "Initial Years", "description": "Fruit bearing starts after 4-5 years. Provide regular care in early years.", "tips": "Be patient; quality improves after 8-10 years"},
+      {"icon": "fas fa-apple-alt", "title": "Harvesting", "description": "Pick fruits when they turn greenish-yellow. Handle carefully to avoid bruising.", "tips": "Harvest in morning; shake branches gently"}
+    ],
+    "traditionalUses": ["Triphala", "Hair oil", "Pickles", "Chyawanprash", "Murabbas"],
+    "seasonalCare": {"spring": ["Prune and shape tree", "Apply fertilizer"], "summer": ["Regular watering", "Protect from heat stress"], "monsoon": ["Natural irrigation", "Monitor fruit development"], "winter": ["Harvest fruits", "Prepare for dormancy"]},
+    "quickFacts": {"family": "Phyllanthaceae", "nativeRegion": "India", "lifespan": "50-70 years", "harvestTime": "November-February", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Moderate", "soilType": "Well-draining, loamy", "propagation": "Seeds, grafting"},
+    "ayurvedicProperties": {"rasa": "Five tastes (except salty)", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Indian Gooseberry", "scientific": "Phyllanthus emblica", "description": "Amla is a powerhouse of Vitamin C and antioxidants, revered in Ayurveda as a rejuvenating fruit."}, "mr": {"title": "आवळा", "scientific": "फिलॅन्थस एम्ब्लिका", "description": "व्हिटॅमिन सी आणि अँटीऑक्सिडंट्सचा खजिना असलेला आवळा आयुर्वेदात पुनर्जीवित करणारे फळ म्हणून मानला जातो."}}
+  },
+  {
+    "title": "Brahmi",
+    "scientific": "Bacopa monnieri",
+    "category": "Medicinal Herb",
+    "description": "A renowned brain tonic in Ayurveda, Brahmi is traditionally used to enhance memory, learning, and concentration. This aquatic herb has been used for over 3,000 years.",
+    "region": "India, wetlands of Asia",
+    "season": "Year-round in tropical climates",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Memory enhancement", "Cognitive function", "Stress relief", "Neuroprotection", "Anti-anxiety"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-brain", "title": "Brain Tonic", "description": "Enhances memory, learning capacity, and concentration in students and elderly"},
+      {"icon": "fas fa-network-wired", "title": "Nerve Support", "description": "Protects brain cells, supports neural communication, and prevents cognitive decline"},
+      {"icon": "fas fa-spa", "title": "Anxiety Relief", "description": "Calms the mind, reduces stress and anxiety without causing drowsiness"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-water", "title": "Planting", "description": "Grow in water-logged soil or shallow water containers. Thrives in aquatic conditions.", "tips": "Use pond soil or mix garden soil with sand"},
+      {"icon": "fas fa-tint", "title": "Maintenance", "description": "Keep constantly moist or partially submerged. Change water weekly in containers.", "tips": "Add diluted liquid fertilizer monthly"},
+      {"icon": "fas fa-cut", "title": "Harvesting", "description": "Pick tender stems and leaves regularly. Encourages bushy growth.", "tips": "Harvest in morning for best medicinal potency"}
+    ],
+    "traditionalUses": ["Brain tonic", "Memory supplements", "Meditation aid", "Student formulations"],
+    "seasonalCare": {"spring": ["Propagate new plants", "Divide clumps"], "summer": ["Maintain water level", "Partial shade beneficial"], "monsoon": ["Thrives naturally", "Watch for overgrowth"], "winter": ["Protect from frost", "Growth slows"]},
+    "quickFacts": {"family": "Plantaginaceae", "nativeRegion": "Wetlands of India", "lifespan": "Perennial", "harvestTime": "Year-round", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Very high (aquatic)", "soilType": "Moist to waterlogged", "propagation": "Cuttings, division"},
+    "ayurvedicProperties": {"rasa": "Bitter, Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Brahmi", "scientific": "Bacopa monnieri", "description": "A renowned brain tonic in Ayurveda, traditionally used to enhance memory and concentration."}, "mr": {"title": "ब्राह्मी", "scientific": "बकोपा मोनिएरी", "description": "आयुर्वेदातील प्रसिद्ध मेंदूसाठी टॉनिक असलेली ब्राह्मी स्मरणशक्ती वाढवण्यासाठी वापरली जाते."}}
+  },
+  {
+    "title": "Aloe Vera",
+    "scientific": "Aloe barbadensis",
+    "category": "Medicinal Succulent",
+    "description": "The \"Plant of Immortality\" as ancient Egyptians called it, Aloe Vera is famous for its soothing gel that heals burns, moisturizes skin, and supports digestive health.",
+    "region": "Arabia, tropical regions worldwide",
+    "season": "Year-round",
+    "plantType": "Perennial Succulent",
+    "healthBenefits": ["Skin healing", "Digestive health", "Wound healing", "Moisturizing", "Anti-inflammatory"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-hand-holding-medical", "title": "Skin Soother", "description": "Treats burns, cuts, sunburn, and skin irritations with cooling gel"},
+      {"icon": "fas fa-stomach", "title": "Digestive Support", "description": "Gel helps with constipation, IBS, and improves overall gut health"},
+      {"icon": "fas fa-face-smile", "title": "Cosmetic Use", "description": "Natural moisturizer, anti-aging properties, reduces wrinkles"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-pot", "title": "Planting", "description": "Use well-draining cactus soil mix in pots with drainage holes.", "tips": "Terra cotta pots work best"},
+      {"icon": "fas fa-droplet-slash", "title": "Minimal Care", "description": "Water sparingly every 2-3 weeks. Allow soil to dry completely.", "tips": "Yellow leaves indicate overwatering"},
+      {"icon": "fas fa-scissors", "title": "Harvesting", "description": "Cut outer mature leaves at the base. Extract gel immediately.", "tips": "Use leaves within 24 hours or refrigerate"}
+    ],
+    "traditionalUses": ["Gel for skin care", "Juice for digestion", "Cosmetic preparations", "Hair treatments"],
+    "seasonalCare": {"spring": ["Repot if needed", "Remove offshoots"], "summer": ["Water weekly", "Protect from intense sun"], "monsoon": ["Reduce watering significantly", "Ensure drainage"], "winter": ["Water monthly", "Protect from frost"]},
+    "quickFacts": {"family": "Asphodelaceae", "nativeRegion": "Arabian Peninsula", "lifespan": "5-25 years", "harvestTime": "Year-round", "sunRequirement": "Bright indirect light", "waterNeeds": "Low (drought-tolerant)", "soilType": "Sandy, cactus mix", "propagation": "Offshoots (pups)"},
+    "ayurvedicProperties": {"rasa": "Bitter, Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Aloe Vera", "scientific": "Aloe barbadensis", "description": "The Plant of Immortality, famous for its soothing gel that heals burns and moisturizes skin."}, "mr": {"title": "कोरफड", "scientific": "अलो बार्बाडेन्सिस", "description": "अमरत्वाची वनस्पती म्हणून ओळखली जाणारी कोरफड तिच्या शांतता देणाऱ्या जेलसाठी प्रसिद्ध आहे."}}
+  },
+  {
+    "title": "Giloy",
+    "scientific": "Tinospora cordifolia",
+    "category": "Medicinal Herb",
+    "description": "Known as \"Amrita\" (divine nectar) in Sanskrit, Giloy is a powerful immunomodulator and fever reducer. This climbing shrub is one of the most versatile herbs in Ayurveda.",
+    "region": "India, tropical regions",
+    "season": "Year-round (best growth in monsoon)",
+    "plantType": "Perennial Climber",
+    "healthBenefits": ["Immunity booster", "Fever reducer", "Detoxifier", "Anti-allergic", "Liver protection"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-shield-alt", "title": "Immune Modulator", "description": "Strengthens immunity against viral and bacterial infections naturally"},
+      {"icon": "fas fa-thermometer-half", "title": "Fever Remedy", "description": "Traditionally used for chronic, recurring fevers including dengue and malaria"},
+      {"icon": "fas fa-droplet", "title": "Blood Purifier", "description": "Removes toxins, purifies blood, and supports liver detoxification"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-cut", "title": "Stem Cutting", "description": "Plant 6-8 inch stem cuttings in well-draining soil. Roots develop in 2-3 weeks.", "tips": "Cut just below a node; plant at 45-degree angle"},
+      {"icon": "fas fa-vine", "title": "Support Structure", "description": "Provide trellis, fence, or tree for climbing. Can grow 10-20 feet.", "tips": "Growing on neem tree increases medicinal potency"},
+      {"icon": "fas fa-branch", "title": "Harvesting", "description": "Use mature stems after 1-2 years of growth. Cut in sections.", "tips": "Harvest in early morning; fresh stems are more potent"}
+    ],
+    "traditionalUses": ["Fever management", "Immunity tonics", "Diabetes support", "Kadha"],
+    "seasonalCare": {"spring": ["Prune and train vines", "Apply compost"], "summer": ["Regular watering", "Mulch base"], "monsoon": ["Peak growth period", "Train new growth"], "winter": ["Reduce watering", "Harvest mature stems"]},
+    "quickFacts": {"family": "Menispermaceae", "nativeRegion": "Tropical India", "lifespan": "Perennial", "harvestTime": "Stems after 1-2 years", "sunRequirement": "Partial shade to full sun", "waterNeeds": "Moderate", "soilType": "Well-draining, fertile", "propagation": "Stem cuttings"},
+    "ayurvedicProperties": {"rasa": "Bitter, Astringent", "virya": "Heating", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Giloy", "scientific": "Tinospora cordifolia", "description": "Known as Amrita, Giloy is a powerful immunomodulator and fever reducer."}, "mr": {"title": "गुलवेल", "scientific": "टिनोस्पोरा कोर्डिफोलिया", "description": "अमृत म्हणून ओळखली जाणारी गुलवेल शक्तिशाली रोगप्रतिकारक शक्ती वाढवणारी वनस्पती आहे."}}
+  },
+  {
+    "title": "Methi",
+    "scientific": "Trigonella foenum-graecum",
+    "category": "Herb",
+    "description": "Fenugreek is a dual-purpose plant used both as a culinary herb and medicine. Its seeds are rich in fiber, protein, and compounds beneficial for blood sugar control.",
+    "region": "Mediterranean, India, Middle East",
+    "season": "Winter crop (Rabi season)",
+    "plantType": "Annual Herb",
+    "healthBenefits": ["Blood sugar control", "Lactation support", "Digestive health", "Cholesterol reduction", "Hair growth"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-heartbeat", "title": "Diabetes Management", "description": "Seeds help regulate blood sugar levels naturally"},
+      {"icon": "fas fa-baby", "title": "Lactation Aid", "description": "Traditional galactagogue for nursing mothers to increase milk production"},
+      {"icon": "fas fa-user-hair", "title": "Hair Care", "description": "Paste strengthens hair and reduces dandruff effectively"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Direct sow in well-prepared beds. Seeds germinate in 5-7 days.", "tips": "Soak seeds for 2 hours before planting for faster germination"},
+      {"icon": "fas fa-sprout", "title": "Growth", "description": "Fast-growing, ready in 20-30 days for leaves, 3-4 months for seeds.", "tips": "Thin seedlings to 4-6 inches apart for better growth"},
+      {"icon": "fas fa-scissors", "title": "Harvesting", "description": "Pick leaves early, harvest seeds when pods turn brown and dry.", "tips": "Harvest seeds in morning to prevent shattering"}
+    ],
+    "traditionalUses": ["Cooking spice", "Hair masks", "Digestive tonics", "Poultices"],
+    "seasonalCare": {"spring": ["Harvest seeds", "Prepare for summer"], "summer": ["Not ideal season", "Hot climate crop"], "monsoon": ["Can grow in cooler regions"], "winter": ["Best growing season", "Sow in October-November"]},
+    "quickFacts": {"family": "Fabaceae", "nativeRegion": "Mediterranean, Western Asia", "lifespan": "Annual", "harvestTime": "Leaves 20-30 days, Seeds 3-4 months", "sunRequirement": "Full sun", "waterNeeds": "Moderate", "soilType": "Well-draining, loamy", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Bitter, Pungent", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Vata and Kapha"},
+    "translations": {"en": {"title": "Fenugreek", "scientific": "Trigonella foenum-graecum", "description": "Fenugreek is a dual-purpose plant used as both culinary herb and medicine."}, "mr": {"title": "मेथी", "scientific": "ट्रिगोनेला फोनम-ग्रेकम", "description": "मेथी ही स्वयंपाक आणि औषध या दोन्ही कामी येणारी वनस्पती आहे."}}
+  },
+  {
+    "title": "Pudina",
+    "scientific": "Mentha arvensis",
+    "category": "Aromatic Herb",
+    "description": "Mint is a refreshing herb with cooling properties, widely used in Indian cuisine and traditional medicine. Its essential oils have digestive and respiratory benefits.",
+    "region": "Temperate regions worldwide",
+    "season": "Year-round in moderate climates",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Digestive aid", "Respiratory relief", "Headache relief", "Oral health", "Skin cooling"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-stomach", "title": "Digestive Comfort", "description": "Relieves indigestion, gas, and nausea effectively"},
+      {"icon": "fas fa-lungs", "title": "Respiratory Health", "description": "Opens airways and relieves congestion naturally"},
+      {"icon": "fas fa-snowflake", "title": "Cooling Agent", "description": "External application for headaches and skin irritation"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-plant-wilt", "title": "Planting", "description": "Use cuttings or runners in moist soil. Roots develop quickly.", "tips": "Plant in containers to prevent aggressive spreading"},
+      {"icon": "fas fa-box", "title": "Containment", "description": "Grows aggressively, use containers or barriers to control spread.", "tips": "Bury containers 12 inches deep to prevent root escape"},
+      {"icon": "fas fa-cut", "title": "Harvesting", "description": "Pick leaves regularly to promote bushy growth and prevent flowering.", "tips": "Harvest before flowering for best flavor and potency"}
+    ],
+    "traditionalUses": ["Chutneys", "Digestive teas", "Aromatherapy", "Cooling drinks"],
+    "seasonalCare": {"spring": ["Divide plants", "Fertilize lightly"], "summer": ["Water frequently", "Harvest regularly"], "monsoon": ["Thrives with natural moisture", "Watch for pests"], "winter": ["Dies back in cold areas", "Protect roots"]},
+    "quickFacts": {"family": "Lamiaceae", "nativeRegion": "Temperate regions", "lifespan": "Perennial", "harvestTime": "Year-round", "sunRequirement": "Partial shade to full sun", "waterNeeds": "High", "soilType": "Moist, rich", "propagation": "Cuttings, runners"},
+    "ayurvedicProperties": {"rasa": "Pungent, Sweet", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Mint", "scientific": "Mentha arvensis", "description": "Mint is a refreshing herb with cooling properties, widely used in Indian cuisine."}, "mr": {"title": "पुदीना", "scientific": "मेंथा आर्व्हेन्सिस", "description": "पुदीना ही थंड गुणधर्म असलेली ताजेतवाने औषधी वनस्पती आहे."}}
+  },
+  {
+    "title": "Adrak",
+    "scientific": "Zingiber officinale",
+    "category": "Root Spice",
+    "description": "Ginger is one of the most widely used medicinal spices in the world. Its rhizome contains gingerol, a compound with powerful anti-inflammatory and antioxidant effects.",
+    "region": "Southeast Asia, India",
+    "season": "Planted in monsoon, harvested after 8-10 months",
+    "plantType": "Perennial Rhizome",
+    "healthBenefits": ["Anti-nausea", "Digestive aid", "Anti-inflammatory", "Pain relief", "Immune support"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-hand-holding-heart", "title": "Nausea Relief", "description": "Highly effective for motion sickness and morning sickness"},
+      {"icon": "fas fa-fire-flame-curved", "title": "Digestive Fire", "description": "Stimulates digestion and relieves bloating effectively"},
+      {"icon": "fas fa-bone", "title": "Pain Management", "description": "Reduces muscle pain and arthritis symptoms naturally"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-hand-holding-seedling", "title": "Rhizome Planting", "description": "Plant fresh ginger pieces with buds 2-3 inches deep in rich soil.", "tips": "Choose plump rhizomes with multiple buds for best results"},
+      {"icon": "fas fa-calendar-days", "title": "Growing Period", "description": "Requires 8-10 months to mature. Maintain consistent moisture.", "tips": "Mulch heavily and provide partial shade in hot climates"},
+      {"icon": "fas fa-shovel", "title": "Harvesting", "description": "Dig up when leaves yellow and die back. Cure in shade before storage.", "tips": "For baby ginger, harvest at 4-5 months for tender rhizomes"}
+    ],
+    "traditionalUses": ["Cooking spice", "Herbal teas", "Medicinal decoctions", "Kadha"],
+    "seasonalCare": {"spring": ["Plant rhizomes", "Prepare organic-rich soil"], "summer": ["Maintain moisture", "Provide shade"], "monsoon": ["Peak growth season", "Keep well-fed"], "winter": ["Stop watering", "Harvest mature rhizomes"]},
+    "quickFacts": {"family": "Zingiberaceae", "nativeRegion": "Southeast Asia", "lifespan": "Perennial (harvested annually)", "harvestTime": "8-10 months after planting", "sunRequirement": "Partial shade", "waterNeeds": "High during growth", "soilType": "Rich, well-draining, loamy", "propagation": "Rhizome division"},
+    "ayurvedicProperties": {"rasa": "Pungent, Sweet", "virya": "Heating", "vipaka": "Sweet", "dosha": "Balances Vata and Kapha"},
+    "translations": {"en": {"title": "Ginger", "scientific": "Zingiber officinale", "description": "Ginger is one of the most widely used medicinal spices with powerful anti-inflammatory effects."}, "mr": {"title": "आले", "scientific": "झिंजिबर ऑफिसिनेल", "description": "आले हे जगातील सर्वात जास्त वापरले जाणारे औषधी मसाले आहे."}}
+  },
+  {
+    "title": "Curry Patta",
+    "scientific": "Murraya koenigii",
+    "category": "Aromatic Herb",
+    "description": "The quintessential flavoring of South Indian cuisine, curry leaves are more than just aromatic—they're packed with antioxidants and have significant health benefits.",
+    "region": "India, Sri Lanka",
+    "season": "Year-round evergreen",
+    "plantType": "Perennial Shrub/Tree",
+    "healthBenefits": ["Digestive health", "Hair growth", "Blood sugar control", "Antioxidant", "Eye health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-user-hair", "title": "Hair Tonic", "description": "Prevents premature graying and promotes healthy hair growth"},
+      {"icon": "fas fa-stomach", "title": "Digestive Aid", "description": "Helps with digestion and reduces diarrhea effectively"},
+      {"icon": "fas fa-heartbeat", "title": "Blood Sugar", "description": "May help regulate glucose levels naturally"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed/Cutting", "description": "Fresh seeds germinate better, cuttings are faster. Plant in well-draining soil.", "tips": "Remove outer seed coat for faster germination; plant immediately"},
+      {"icon": "fas fa-hourglass-half", "title": "Growth", "description": "Slow initial growth, speeds up after establishment. Be patient.", "tips": "Transplant to larger pot after 6 months for better growth"},
+      {"icon": "fas fa-cut", "title": "Harvesting", "description": "Pick sprigs regularly to encourage branching and bushy growth.", "tips": "Harvest from different parts of plant to maintain shape"}
+    ],
+    "traditionalUses": ["Cooking", "Hair oil infusions", "Digestive tonics"],
+    "seasonalCare": {"spring": ["Prune for shape", "Apply fertilizer"], "summer": ["Water regularly", "Protect from harsh sun"], "monsoon": ["Thrives naturally", "Monitor for pests"], "winter": ["Reduce watering", "Growth slows"]},
+    "quickFacts": {"family": "Rutaceae", "nativeRegion": "India, Sri Lanka", "lifespan": "15-20 years", "harvestTime": "Year-round", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Moderate", "soilType": "Well-draining, slightly acidic", "propagation": "Seeds, stem cuttings"},
+    "ayurvedicProperties": {"rasa": "Pungent, Bitter", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Kapha and Vata"},
+    "translations": {"en": {"title": "Curry Leaf", "scientific": "Murraya koenigii", "description": "The quintessential flavoring of South Indian cuisine, packed with antioxidants."}, "mr": {"title": "कढीपत्ता", "scientific": "मुरैया कोनिगी", "description": "दक्षिण भारतीय पाककृतीचा मुख्य सुगंधी घटक जो अँटीऑक्सिडंट्सने भरलेला आहे."}}
+  },
+  {
+    "title": "Shatavari",
+    "scientific": "Asparagus racemosus",
+    "category": "Medicinal Herb",
+    "description": "Known as the \"Queen of Herbs,\" Shatavari is the premier female rejuvenative in Ayurveda. Its name means \"she who possesses a hundred husbands,\" referring to its traditional use for reproductive health.",
+    "region": "India, Himalayas, Africa",
+    "season": "Year-round cultivation",
+    "plantType": "Perennial Climbing Herb",
+    "healthBenefits": ["Hormonal balance", "Fertility support", "Digestive health", "Immune support", "Lactation aid"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-venus", "title": "Women's Health", "description": "Supports reproductive system and hormonal balance naturally"},
+      {"icon": "fas fa-spa", "title": "Rejuvenative", "description": "Nourishes and strengthens the body, promotes vitality"},
+      {"icon": "fas fa-stomach", "title": "Digestive Tonic", "description": "Soothes and protects the digestive tract lining"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Sow seeds or plant root divisions in well-prepared soil.", "tips": "Scarify seeds or soak overnight for better germination"},
+      {"icon": "fas fa-vine", "title": "Support", "description": "Provide trellis or support for climbing vines. Can grow 6-8 feet.", "tips": "Train vines early to establish climbing pattern"},
+      {"icon": "fas fa-root", "title": "Harvesting", "description": "Roots harvested after 18-24 months when plant is mature.", "tips": "Harvest tuberous roots in winter for maximum potency"}
+    ],
+    "traditionalUses": ["Female reproductive tonic", "Powder supplements", "Rejuvenation therapy"],
+    "seasonalCare": {"spring": ["New growth emerges", "Apply compost"], "summer": ["Regular watering", "Mulch well"], "monsoon": ["Peak growth", "Train vines"], "winter": ["Dormant period", "Reduce watering"]},
+    "quickFacts": {"family": "Asparagaceae", "nativeRegion": "India, Himalayas", "lifespan": "Perennial", "harvestTime": "Roots after 18-24 months", "sunRequirement": "Partial shade", "waterNeeds": "Moderate", "soilType": "Sandy, well-draining", "propagation": "Seeds, root division"},
+    "ayurvedicProperties": {"rasa": "Sweet, Bitter", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances Pitta and Vata"},
+    "translations": {"en": {"title": "Shatavari", "scientific": "Asparagus racemosus", "description": "Known as the Queen of Herbs, Shatavari is the premier female rejuvenative in Ayurveda."}, "mr": {"title": "शतावरी", "scientific": "अस्पॅरॅगस रेसिमोसस", "description": "औषधी वनस्पतींची राणी म्हणून ओळखली जाणारी शतावरी आयुर्वेदातील स्त्री पुनर्जीवक आहे."}}
+  },
+  {
+    "title": "Moringa",
+    "scientific": "Moringa oleifera",
+    "category": "Tree",
+    "description": "Called the \"Miracle Tree,\" every part of moringa is edible and nutritious. It's packed with vitamins, minerals, and amino acids, making it one of the most nutrient-dense plants on Earth.",
+    "region": "India, sub-Himalayan regions",
+    "season": "Year-round in tropical climates",
+    "plantType": "Fast-growing Deciduous Tree",
+    "healthBenefits": ["Nutrient powerhouse", "Anti-inflammatory", "Antioxidant", "Blood sugar control", "Cholesterol reduction"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-capsules", "title": "Nutritional Supplement", "description": "Rich in vitamins A, C, calcium, iron, and protein"},
+      {"icon": "fas fa-fire", "title": "Anti-Inflammatory", "description": "Reduces inflammation throughout the body naturally"},
+      {"icon": "fas fa-heartbeat", "title": "Blood Pressure", "description": "Helps regulate blood pressure levels naturally"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Planting", "description": "Direct sow or plant in pots. Seeds germinate easily in 5-10 days.", "tips": "Soak seeds overnight; plant 1 inch deep in warm soil"},
+      {"icon": "fas fa-chart-line", "title": "Fast Growth", "description": "Can grow 3-5 meters in first year with proper care.", "tips": "Prune regularly to encourage branching and leaf production"},
+      {"icon": "fas fa-leaf", "title": "Harvesting", "description": "Leaves can be picked after 2-3 months. Harvest pods at 6-8 months.", "tips": "Cut branch tips to harvest leaves and stimulate new growth"}
+    ],
+    "traditionalUses": ["Leaf powder", "Nutritional supplements", "Water purification", "Fodder"],
+    "seasonalCare": {"spring": ["Prune for shape", "Encourage branching"], "summer": ["Water young trees", "Drought-tolerant when mature"], "monsoon": ["Natural watering", "Monitor rapid growth"], "winter": ["May drop leaves in cold", "Minimal care"]},
+    "quickFacts": {"family": "Moringaceae", "nativeRegion": "Sub-Himalayan India", "lifespan": "10-15 years", "harvestTime": "Leaves year-round, Pods in 6-8 months", "sunRequirement": "Full sun", "waterNeeds": "Low to moderate (drought-tolerant)", "soilType": "Well-draining, tolerates poor soil", "propagation": "Seeds, cuttings"},
+    "ayurvedicProperties": {"rasa": "All six tastes except salty", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Moringa", "scientific": "Moringa oleifera", "description": "Called the Miracle Tree, every part is edible and packed with nutrients."}, "mr": {"title": "शेवगा", "scientific": "मोरिंगा ऑलीफेरा", "description": "चमत्कारिक वृक्ष म्हणून ओळखले जाणारे शेवगा पौष्टिक तत्वांनी भरलेले आहे."}}
+  },
+  {
+    "title": "Stevia",
+    "scientific": "Stevia rebaudiana",
+    "category": "Herb",
+    "description": "The natural sugar substitute that's 200-300 times sweeter than sugar with zero calories. Stevia has been used for centuries in South America and is now gaining worldwide popularity as a healthy sweetener.",
+    "region": "South America, cultivated worldwide",
+    "season": "Warm season crop",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Zero-calorie sweetener", "Blood sugar friendly", "Dental health", "Antioxidant", "Blood pressure support"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-candy-cane", "title": "Sugar Substitute", "description": "Natural sweetener for diabetics and weight management"},
+      {"icon": "fas fa-tooth", "title": "Dental Health", "description": "Doesn't promote tooth decay unlike sugar"},
+      {"icon": "fas fa-heartbeat", "title": "Blood Sugar", "description": "May help regulate blood glucose levels naturally"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-plant-wilt", "title": "Planting", "description": "Start from seedlings or cuttings (seeds are difficult). Plant after frost.", "tips": "Buy established seedlings; seeds have low germination rates"},
+      {"icon": "fas fa-sun-plant-wilt", "title": "Growth", "description": "Requires warm temperatures and regular moisture. Grows 1-3 feet tall.", "tips": "Pinch growing tips to encourage bushy growth"},
+      {"icon": "fas fa-scissors", "title": "Harvesting", "description": "Pick leaves before flowering for best sweetness. Multiple harvests possible.", "tips": "Dry leaves slowly in shade to preserve sweetness"}
+    ],
+    "traditionalUses": ["Natural sweetener", "Herbal teas", "Sugar substitute in cooking"],
+    "seasonalCare": {"spring": ["Plant seedlings after frost", "Fertilize lightly"], "summer": ["Water consistently", "Harvest leaves"], "monsoon": ["Protect from waterlogging"], "winter": ["Dies back in cold areas", "Mulch roots heavily"]},
+    "quickFacts": {"family": "Asteraceae", "nativeRegion": "Paraguay, Brazil", "lifespan": "Perennial (3-5 years productive)", "harvestTime": "Multiple harvests during growing season", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Moderate to high", "soilType": "Well-draining, fertile, slightly acidic", "propagation": "Cuttings, divisions"},
+    "ayurvedicProperties": {"rasa": "Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Stevia", "scientific": "Stevia rebaudiana", "description": "Natural sugar substitute that's 200-300 times sweeter than sugar with zero calories."}, "mr": {"title": "स्टिव्हिया", "scientific": "स्टिव्हिया रिबॉडियाना", "description": "नैसर्गिक साखरेचा पर्याय जो साखरेपेक्षा २००-३०० पट गोड आणि शून्य कॅलरी असतो."}}
+  },
+  {
+    "title": "Ajwain",
+    "scientific": "Trachyspermum ammi",
+    "category": "Herb",
+    "description": "Carom seeds are a staple in Indian kitchens and medicine cabinets. These tiny seeds pack a powerful punch with their thymol content, making them excellent for digestive and respiratory issues.",
+    "region": "India, Middle East",
+    "season": "Winter crop (Rabi season)",
+    "plantType": "Annual Herb",
+    "healthBenefits": ["Digestive aid", "Respiratory relief", "Anti-bacterial", "Pain relief", "Weight management"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-stomach", "title": "Digestive Power", "description": "Relieves gas, bloating, indigestion, and stomach cramps instantly"},
+      {"icon": "fas fa-lungs", "title": "Respiratory Support", "description": "Helps with asthma, bronchitis, and congestion relief"},
+      {"icon": "fas fa-bacteria", "title": "Antimicrobial", "description": "Natural antibacterial and antifungal properties"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Sow seeds in well-prepared beds in winter. Germination in 7-10 days.", "tips": "Direct sow; doesn't transplant well"},
+      {"icon": "fas fa-sun", "title": "Growth Period", "description": "Requires cool weather and full sun. Ready in 4-5 months.", "tips": "Thin plants to 6-8 inches apart"},
+      {"icon": "fas fa-scissors", "title": "Harvesting", "description": "Harvest seed heads when they turn brown. Dry thoroughly before storage.", "tips": "Cut in morning and dry in shade"}
+    ],
+    "traditionalUses": ["Cooking spice", "Digestive water", "Home remedies", "Tadka"],
+    "seasonalCare": {"spring": ["Harvest seeds", "Complete life cycle"], "summer": ["Not suitable", "Heat intolerant"], "monsoon": ["Not suitable", "Excess moisture harmful"], "winter": ["Best growing season", "Sow in October"]},
+    "quickFacts": {"family": "Apiaceae", "nativeRegion": "India, Egypt", "lifespan": "Annual", "harvestTime": "4-5 months after sowing", "sunRequirement": "Full sun", "waterNeeds": "Moderate", "soilType": "Well-draining, sandy loam", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Pungent, Bitter", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Kapha and Vata"},
+    "translations": {"en": {"title": "Carom Seeds", "scientific": "Trachyspermum ammi", "description": "Tiny seeds with powerful digestive and respiratory benefits, staple in Indian medicine."}, "mr": {"title": "ओवा", "scientific": "ट्रॅकिस्पर्मम अम्मी", "description": "पचनासाठी आणि श्वसनासाठी उत्कृष्ट असलेले लहान बीज."}}
+  },
+  {
+    "title": "Kalmegh",
+    "scientific": "Andrographis paniculata",
+    "category": "Medicinal Herb",
+    "description": "Known as the \"King of Bitters,\" Kalmegh is a powerful herb used extensively for liver support, immunity, and fever. It's been dubbed the \"Indian Echinacea\" for its immune-boosting properties.",
+    "region": "India, Sri Lanka, Southeast Asia",
+    "season": "Monsoon planting",
+    "plantType": "Annual Herb",
+    "healthBenefits": ["Liver protection", "Immunity booster", "Fever reducer", "Anti-viral", "Blood purifier"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-disease", "title": "Liver Tonic", "description": "Protects liver cells and supports detoxification processes"},
+      {"icon": "fas fa-shield-virus", "title": "Immune Enhancer", "description": "Strengthens natural defenses against infections and viruses"},
+      {"icon": "fas fa-thermometer", "title": "Fever Management", "description": "Reduces fever and supports recovery from viral infections"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Sow seeds in monsoon in well-prepared beds. Germination in 10-15 days.", "tips": "Mix seeds with sand for even distribution"},
+      {"icon": "fas fa-water", "title": "Growing", "description": "Requires consistent moisture and partial shade. Grows 1-3 feet tall.", "tips": "Mulch well to retain moisture"},
+      {"icon": "fas fa-cut", "title": "Harvesting", "description": "Harvest whole plant when flowering begins. Dry in shade.", "tips": "Use entire plant including roots for maximum benefit"}
+    ],
+    "traditionalUses": ["Liver tonics", "Fever remedies", "Immunity formulations", "Bitter tonics"],
+    "seasonalCare": {"spring": ["Prepare beds", "Clear previous crop"], "summer": ["Not ideal season", "Requires irrigation"], "monsoon": ["Best planting time", "Natural irrigation"], "winter": ["Harvest before frost", "Complete life cycle"]},
+    "quickFacts": {"family": "Acanthaceae", "nativeRegion": "India, Sri Lanka", "lifespan": "Annual", "harvestTime": "3-4 months after sowing", "sunRequirement": "Partial shade", "waterNeeds": "High", "soilType": "Rich, moist, well-draining", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Bitter", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Green Chiretta", "scientific": "Andrographis paniculata", "description": "The King of Bitters, powerful liver protector and immune booster."}, "mr": {"title": "किरायत", "scientific": "अँड्रोग्राफिस पॅनिक्युलेटा", "description": "कडुपणाचा राजा, यकृताचे संरक्षण आणि रोगप्रतिकारक शक्ती वाढवणारी औषधी."}}
+  },
+  {
+    "title": "Bel Patra",
+    "scientific": "Aegle marmelos",
+    "category": "Tree",
+    "description": "The sacred Bel tree is revered in Hindu tradition and valued in Ayurveda for its medicinal fruits and leaves. Every part of this tree has therapeutic properties, especially for digestive health.",
+    "region": "India, Southeast Asia",
+    "season": "Fruits in summer",
+    "plantType": "Deciduous Tree",
+    "healthBenefits": ["Digestive health", "Diabetes control", "Heart health", "Immunity booster", "Cooling effect"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-stomach", "title": "Digestive Relief", "description": "Excellent for diarrhea, dysentery, and inflammatory bowel conditions"},
+      {"icon": "fas fa-heartbeat", "title": "Diabetes Support", "description": "Helps regulate blood sugar and improves insulin sensitivity"},
+      {"icon": "fas fa-heart", "title": "Heart Health", "description": "Supports cardiovascular function and reduces cholesterol"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Plant seeds or saplings in well-prepared pits. Germination takes 2-3 weeks.", "tips": "Fresh seeds germinate better; remove fruit pulp completely"},
+      {"icon": "fas fa-hourglass", "title": "Growth Period", "description": "Slow initial growth. Fruit bearing starts after 5-7 years.", "tips": "Protect young plants from animals; use thorny branches"},
+      {"icon": "fas fa-apple-alt", "title": "Harvesting", "description": "Collect ripe fruits in summer. Leaves can be picked year-round.", "tips": "Ripe fruits fall naturally; collect from ground"}
+    ],
+    "traditionalUses": ["Religious offerings", "Fruit sherbet", "Digestive remedies", "Leaf decoctions"],
+    "seasonalCare": {"spring": ["Prune dead wood", "Apply fertilizer"], "summer": ["Fruit harvest season", "Water young trees"], "monsoon": ["Natural irrigation", "Monitor growth"], "winter": ["Minimal care", "Tree dormant"]},
+    "quickFacts": {"family": "Rutaceae", "nativeRegion": "India", "lifespan": "50-60 years", "harvestTime": "Summer (May-July)", "sunRequirement": "Full sun", "waterNeeds": "Low to moderate", "soilType": "Well-draining, tolerates poor soil", "propagation": "Seeds, grafting"},
+    "ayurvedicProperties": {"rasa": "Sweet, Bitter", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Wood Apple", "scientific": "Aegle marmelos", "description": "Sacred tree with powerful digestive and cooling properties."}, "mr": {"title": "बेल", "scientific": "एगल मार्मेलोस", "description": "पवित्र वृक्ष जो पाचन आणि थंड गुणधर्मांसाठी प्रसिद्ध आहे."}}
+  },
+  {
+    "title": "Arjuna",
+    "scientific": "Terminalia arjuna",
+    "category": "Tree",
+    "description": "Arjuna is known as the \"Guardian of the Heart\" in Ayurveda. Its bark has been used for thousands of years to support cardiovascular health and is one of the most important cardiac tonics.",
+    "region": "India, Myanmar",
+    "season": "Year-round evergreen",
+    "plantType": "Evergreen Tree",
+    "healthBenefits": ["Heart health", "Blood pressure", "Cholesterol control", "Antioxidant", "Wound healing"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-heart-pulse", "title": "Cardiac Tonic", "description": "Strengthens heart muscle and improves cardiac function naturally"},
+      {"icon": "fas fa-chart-line", "title": "Blood Pressure", "description": "Helps regulate blood pressure and supports circulation"},
+      {"icon": "fas fa-shield", "title": "Cardioprotective", "description": "Protects heart from oxidative stress and damage"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Planting", "description": "Sow fresh seeds in monsoon. Germination occurs in 2-4 weeks.", "tips": "Collect seeds from ripe fruits; plant immediately"},
+      {"icon": "fas fa-tree", "title": "Sapling Care", "description": "Water regularly in first 2-3 years. Grows to 60-80 feet.", "tips": "Prefers riverbanks and moist areas"},
+      {"icon": "fas fa-knife", "title": "Bark Harvest", "description": "Harvest bark from mature trees sustainably without killing tree.", "tips": "Take only small strips; allow tree to heal"}
+    ],
+    "traditionalUses": ["Heart tonics", "Blood pressure remedies", "Ayurvedic formulations", "Bark powder"],
+    "seasonalCare": {"spring": ["New growth emerges", "Apply compost"], "summer": ["Water young trees", "Mature trees drought-tolerant"], "monsoon": ["Best planting time", "Natural irrigation"], "winter": ["Minimal care needed", "Evergreen foliage"]},
+    "quickFacts": {"family": "Combretaceae", "nativeRegion": "India", "lifespan": "60-80 years", "harvestTime": "Bark from mature trees", "sunRequirement": "Full sun", "waterNeeds": "Moderate to high", "soilType": "Moist, well-draining", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Astringent, Bitter", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Arjuna", "scientific": "Terminalia arjuna", "description": "The Guardian of the Heart, premier cardiac tonic in Ayurveda."}, "mr": {"title": "अर्जुन", "scientific": "टर्मिनालिया अर्जुना", "description": "हृदयाचा संरक्षक, आयुर्वेदातील प्रमुख हृदय टॉनिक."}}
+  },
+  {
+    "title": "Shankhpushpi",
+    "scientific": "Convolvulus pluricaulis",
+    "category": "Medicinal Herb",
+    "description": "Named after its conch shell-shaped flowers, Shankhpushpi is a powerful brain tonic and memory enhancer. It's particularly valued for reducing stress and improving mental clarity.",
+    "region": "India, Burma",
+    "season": "Monsoon to winter flowering",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Memory enhancement", "Stress relief", "Mental clarity", "Sleep quality", "Blood pressure"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-brain", "title": "Brain Tonic", "description": "Enhances memory, intelligence, and cognitive abilities"},
+      {"icon": "fas fa-bed", "title": "Sleep Aid", "description": "Promotes restful sleep and reduces insomnia naturally"},
+      {"icon": "fas fa-spa", "title": "Stress Buster", "description": "Calms nervous system and reduces anxiety effectively"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Sow seeds in monsoon season. Germination in 10-15 days.", "tips": "Scarify seeds or soak overnight for better germination"},
+      {"icon": "fas fa-vine", "title": "Growth", "description": "Spreading ground cover, can grow 1-2 feet tall. Flowers abundantly.", "tips": "Needs space to spread; grows well in rock gardens"},
+      {"icon": "fas fa-cut", "title": "Harvesting", "description": "Harvest whole plant when in flower. Dry in shade.", "tips": "Flowers contain maximum medicinal properties"}
+    ],
+    "traditionalUses": ["Memory tonics", "Sleep aids", "Student formulations", "Nervine tonics"],
+    "seasonalCare": {"spring": ["New growth begins", "Fertilize lightly"], "summer": ["Water regularly", "Protect from extreme heat"], "monsoon": ["Peak flowering", "Thrives naturally"], "winter": ["Harvest time", "Growth slows"]},
+    "quickFacts": {"family": "Convolvulaceae", "nativeRegion": "India", "lifespan": "Perennial", "harvestTime": "During flowering season", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Moderate", "soilType": "Sandy, well-draining", "propagation": "Seeds, stem cuttings"},
+    "ayurvedicProperties": {"rasa": "Bitter, Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Shankhpushpi", "scientific": "Convolvulus pluricaulis", "description": "Powerful brain tonic and memory enhancer with stress-relieving properties."}, "mr": {"title": "शंखपुष्पी", "scientific": "कॉन्व्होल्व्युलस प्लुरिकॉलिस", "description": "मेंदूसाठी शक्तिशाली टॉनिक आणि स्मरणशक्ती वाढवणारी."}}
+  },
+  {
+    "title": "Triphala",
+    "scientific": "Terminalia chebula (Haritaki)",
+    "category": "Medicinal Herb",
+    "description": "Haritaki is one of the three fruits in the famous Triphala formulation. Known as the \"King of Medicines,\" it's revered for its rejuvenating and detoxifying properties.",
+    "region": "India, Myanmar, Sri Lanka",
+    "season": "Fruits in winter",
+    "plantType": "Deciduous Tree",
+    "healthBenefits": ["Digestive health", "Detoxification", "Anti-aging", "Laxative", "Immunity booster"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-recycle", "title": "Detoxifier", "description": "Cleanses body of toxins and supports all elimination channels"},
+      {"icon": "fas fa-stomach", "title": "Digestive Tonic", "description": "Regulates bowel movements and improves digestion"},
+      {"icon": "fas fa-sparkles", "title": "Rejuvenator", "description": "Anti-aging properties that promote longevity and vitality"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Planting", "description": "Plant fresh seeds in monsoon. Germination takes 3-4 weeks.", "tips": "Remove seed coat for faster germination"},
+      {"icon": "fas fa-hourglass-half", "title": "Growth Period", "description": "Slow growing tree. Fruit bearing starts after 6-8 years.", "tips": "Requires patience; long-lived productive tree"},
+      {"icon": "fas fa-apple-alt", "title": "Fruit Harvest", "description": "Collect ripe fruits in winter. Dry thoroughly before use.", "tips": "Fruits darken when fully ripe and dry"}
+    ],
+    "traditionalUses": ["Triphala powder", "Digestive remedies", "Rejuvenation therapy", "Eye wash"],
+    "seasonalCare": {"spring": ["Prune and shape", "Apply organic fertilizer"], "summer": ["Water young trees", "Protect from heat"], "monsoon": ["Natural irrigation", "Monitor growth"], "winter": ["Harvest fruits", "Minimal care"]},
+    "quickFacts": {"family": "Combretaceae", "nativeRegion": "India, Southeast Asia", "lifespan": "60-80 years", "harvestTime": "Winter (November-January)", "sunRequirement": "Full sun", "waterNeeds": "Low to moderate", "soilType": "Well-draining, tolerates poor soil", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Five tastes (except salty)", "virya": "Heating", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Haritaki", "scientific": "Terminalia chebula", "description": "King of Medicines, one-third of Triphala with powerful rejuvenating properties."}, "mr": {"title": "हिरडा", "scientific": "टर्मिनालिया चेबुला", "description": "औषधांचा राजा, त्रिफळाचा एक घटक जो पुनर्जीवित करतो."}}
+  },
+  {
+    "title": "Bibhitaki",
+    "scientific": "Terminalia bellirica",
+    "category": "Medicinal Herb",
+    "description": "Bibhitaki is another component of Triphala, known for its powerful detoxifying effects on the respiratory and digestive systems. It's especially valued for mucus-related conditions.",
+    "region": "India, Southeast Asia",
+    "season": "Fruits in winter",
+    "plantType": "Deciduous Tree",
+    "healthBenefits": ["Respiratory health", "Digestive support", "Detoxification", "Hair health", "Eye health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-lungs", "title": "Respiratory Cleanser", "description": "Removes excess mucus from lungs and respiratory passages"},
+      {"icon": "fas fa-broom", "title": "Detoxifier", "description": "Cleanses blood and removes toxins from body systems"},
+      {"icon": "fas fa-user-hair", "title": "Hair Tonic", "description": "Promotes hair growth and prevents premature graying"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Sow fresh seeds in monsoon season. Germination in 3-5 weeks.", "tips": "Crack hard seed coat carefully before planting"},
+      {"icon": "fas fa-tree", "title": "Tree Growth", "description": "Moderate growth rate. Bears fruit after 5-6 years.", "tips": "Prefers moist areas near water bodies"},
+      {"icon": "fas fa-apple-alt", "title": "Harvesting", "description": "Collect mature fruits in winter. Dry and store properly.", "tips": "Fruits ready when they turn grayish-brown"}
+    ],
+    "traditionalUses": ["Triphala component", "Respiratory remedies", "Hair oils", "Detox formulations"],
+    "seasonalCare": {"spring": ["Prune if needed", "Fertilize organically"], "summer": ["Water regularly", "Young trees need care"], "monsoon": ["Thrives naturally", "Plant new trees"], "winter": ["Harvest fruits", "Tree dormant"]},
+    "quickFacts": {"family": "Combretaceae", "nativeRegion": "India, Southeast Asia", "lifespan": "60-100 years", "harvestTime": "Winter (December-February)", "sunRequirement": "Full sun", "waterNeeds": "Moderate", "soilType": "Moist, well-draining", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Astringent", "virya": "Heating", "vipaka": "Sweet", "dosha": "Balances Kapha and Pitta"},
+    "translations": {"en": {"title": "Bibhitaki", "scientific": "Terminalia bellirica", "description": "Powerful respiratory cleanser and detoxifier, part of Triphala."}, "mr": {"title": "बेहडा", "scientific": "टर्मिनालिया बेलिरिका", "description": "श्वसनसंस्था शुद्ध करणारी आणि त्रिफळाचा घटक."}}
+  },
+  {
+    "title": "Mulethi",
+    "scientific": "Glycyrrhiza glabra",
+    "category": "Root Herb",
+    "description": "Licorice root is naturally sweet and has been used for thousands of years for respiratory issues, digestive health, and as a harmonizing agent in herbal formulations.",
+    "region": "Mediterranean, Asia",
+    "season": "Harvested after 3-4 years",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Respiratory health", "Digestive soothing", "Throat relief", "Adrenal support", "Anti-inflammatory"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-lungs", "title": "Respiratory Relief", "description": "Soothes cough, sore throat, and bronchial inflammation"},
+      {"icon": "fas fa-stomach", "title": "Digestive Healer", "description": "Protects stomach lining and reduces acidity naturally"},
+      {"icon": "fas fa-fire-alt", "title": "Anti-Inflammatory", "description": "Reduces inflammation throughout the body"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Plant root cuttings or divisions in spring. Seeds are difficult.", "tips": "Use 4-6 inch root pieces with buds"},
+      {"icon": "fas fa-calendar-alt", "title": "Long Growth", "description": "Requires 3-4 years before root harvest. Be patient.", "tips": "Deep soil needed for long taproots"},
+      {"icon": "fas fa-shovel", "title": "Root Harvest", "description": "Dig up roots after 3-4 years. Wash, peel, and dry thoroughly.", "tips": "Harvest in autumn for best sweetness"}
+    ],
+    "traditionalUses": ["Cough syrups", "Throat lozenges", "Digestive aids", "Herbal teas"],
+    "seasonalCare": {"spring": ["Plant divisions", "New growth begins"], "summer": ["Water regularly", "Mulch well"], "monsoon": ["Reduce watering", "Ensure drainage"], "winter": ["Dies back", "Roots dormant"]},
+    "quickFacts": {"family": "Fabaceae", "nativeRegion": "Mediterranean, Asia", "lifespan": "Perennial", "harvestTime": "Roots after 3-4 years", "sunRequirement": "Full sun", "waterNeeds": "Moderate", "soilType": "Deep, sandy, well-draining", "propagation": "Root division"},
+    "ayurvedicProperties": {"rasa": "Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances Vata and Pitta"},
+    "translations": {"en": {"title": "Licorice", "scientific": "Glycyrrhiza glabra", "description": "Sweet root with powerful respiratory and digestive benefits."}, "mr": {"title": "जेष्ठमध", "scientific": "ग्लायसिराझिया ग्लाब्रा", "description": "गोड मूळ जे श्वसन आणि पचनासाठी उत्कृष्ट आहे."}}
+  },
+  {
+    "title": "Kaunch Beej",
+    "scientific": "Mucuna pruriens",
+    "category": "Medicinal Herb",
+    "description": "Velvet bean is a powerful nervine tonic and aphrodisiac in Ayurveda. Its seeds contain L-Dopa, making it valuable for neurological support and vitality enhancement.",
+    "region": "India, tropical regions",
+    "season": "Monsoon planting",
+    "plantType": "Annual Climbing Vine",
+    "healthBenefits": ["Nervous system support", "Vitality enhancer", "Mood elevator", "Muscle strength", "Reproductive health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-brain", "title": "Neuro Support", "description": "Contains natural L-Dopa that supports brain function"},
+      {"icon": "fas fa-heart", "title": "Vitality Booster", "description": "Enhances energy, stamina, and reproductive health"},
+      {"icon": "fas fa-smile", "title": "Mood Enhancer", "description": "Naturally elevates mood and reduces stress"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Sow seeds in monsoon. Scarify or soak overnight first.", "tips": "Hard seed coat; file or nick before planting"},
+      {"icon": "fas fa-vine", "title": "Climbing Growth", "description": "Provide strong support. Grows vigorously to 15-20 feet.", "tips": "Can be invasive; control spreading"},
+      {"icon": "fas fa-pepper-hot", "title": "Pod Harvest", "description": "Harvest mature pods carefully (hairy pods cause itching). Extract seeds.", "tips": "Wear gloves; pod hairs are irritating"}
+    ],
+    "traditionalUses": ["Vitality tonics", "Neurological support", "Rasayana therapy", "Aphrodisiac formulations"],
+    "seasonalCare": {"spring": ["Prepare planting area"], "summer": ["Water regularly", "Support vines"], "monsoon": ["Best planting time", "Peak growth"], "winter": ["Harvest pods", "Annual life cycle ends"]},
+    "quickFacts": {"family": "Fabaceae", "nativeRegion": "Tropical India", "lifespan": "Annual", "harvestTime": "4-5 months after planting", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Moderate to high", "soilType": "Well-draining, fertile", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Sweet, Bitter", "virya": "Heating", "vipaka": "Sweet", "dosha": "Balances Vata and Kapha"},
+    "translations": {"en": {"title": "Velvet Bean", "scientific": "Mucuna pruriens", "description": "Powerful nervine tonic with natural L-Dopa for brain and vitality support."}, "mr": {"title": "कावच", "scientific": "म्युकुना प्रुरिएन्स", "description": "मेंदू आणि चैतन्य वाढवणारे शक्तिशाली औषध."}}
+  },
+  {
+    "title": "Manjistha",
+    "scientific": "Rubia cordifolia",
+    "category": "Medicinal Herb",
+    "description": "Manjistha is the ultimate blood purifier in Ayurveda, known for its deep red roots. It's highly valued for skin conditions, lymphatic cleansing, and supporting healthy circulation.",
+    "region": "Himalayas, India",
+    "season": "Perennial, harvested after 2-3 years",
+    "plantType": "Perennial Climbing Herb",
+    "healthBenefits": ["Blood purification", "Skin health", "Lymphatic support", "Anti-inflammatory", "Wound healing"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-droplet", "title": "Blood Purifier", "description": "Premier herb for cleansing blood and improving complexion"},
+      {"icon": "fas fa-hand-sparkles", "title": "Skin Healer", "description": "Treats acne, pigmentation, eczema, and other skin conditions"},
+      {"icon": "fas fa-water", "title": "Lymphatic Cleanser", "description": "Supports lymphatic drainage and removes stagnation"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Plant seeds or root divisions in monsoon. Prefers cooler climates.", "tips": "Grows best in hilly regions with moderate temperatures"},
+      {"icon": "fas fa-vine", "title": "Climbing Growth", "description": "Provide support for climbing. Grows 3-6 feet.", "tips": "Mulch well to maintain moisture"},
+      {"icon": "fas fa-root", "title": "Root Harvest", "description": "Harvest roots after 2-3 years. Wash and dry carefully.", "tips": "Roots have characteristic red color when fresh"}
+    ],
+    "traditionalUses": ["Blood purifiers", "Skin formulations", "Natural dye", "Ayurvedic medicines"],
+    "seasonalCare": {"spring": ["New growth", "Apply compost"], "summer": ["Water regularly", "Partial shade beneficial"], "monsoon": ["Thrives naturally", "Plant new divisions"], "winter": ["Growth slows", "Protect in cold areas"]},
+    "quickFacts": {"family": "Rubiaceae", "nativeRegion": "Himalayas, India", "lifespan": "Perennial", "harvestTime": "Roots after 2-3 years", "sunRequirement": "Partial shade", "waterNeeds": "Moderate", "soilType": "Rich, moist, well-draining", "propagation": "Seeds, root division"},
+    "ayurvedicProperties": {"rasa": "Bitter, Astringent, Sweet", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Indian Madder", "scientific": "Rubia cordifolia", "description": "Ultimate blood purifier with deep red roots, excellent for skin health."}, "mr": {"title": "मांजिष्ठा", "scientific": "रुबिया कॉर्डिफोलिया", "description": "रक्त शुद्ध करणारे सर्वोत्कृष्ट औषध आणि त्वचेसाठी उत्तम."}}
+  },
+  {
+    "title": "Guggul",
+    "scientific": "Commiphora wightii",
+    "category": "Resin",
+    "description": "Guggul is a sacred resin with powerful cholesterol-lowering and anti-inflammatory properties. It's been used for thousands of years for joint health and metabolic disorders.",
+    "region": "Rajasthan, Gujarat, India",
+    "season": "Resin collected in winter",
+    "plantType": "Shrub/Small Tree",
+    "healthBenefits": ["Cholesterol control", "Weight management", "Joint health", "Thyroid support", "Anti-inflammatory"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-heartbeat", "title": "Cholesterol Manager", "description": "Naturally lowers LDL and raises HDL cholesterol levels"},
+      {"icon": "fas fa-weight", "title": "Metabolism Booster", "description": "Supports healthy weight loss and thyroid function"},
+      {"icon": "fas fa-bone", "title": "Joint Support", "description": "Reduces arthritis pain and inflammation"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Plant seeds in arid regions. Germination is challenging.", "tips": "Thrives in desert conditions; drought-tolerant"},
+      {"icon": "fas fa-sun", "title": "Growth", "description": "Slow-growing shrub, 3-6 feet tall. Requires minimal care.", "tips": "Protect from overwatering; prefers dry conditions"},
+      {"icon": "fas fa-droplet", "title": "Resin Collection", "description": "Tap bark in winter to collect resin. Sustainable harvesting essential.", "tips": "Make shallow cuts; don't harm the plant"}
+    ],
+    "traditionalUses": ["Cholesterol formulations", "Weight loss supplements", "Joint remedies", "Incense"],
+    "seasonalCare": {"spring": ["Flowering season", "Minimal water"], "summer": ["Thrives in heat", "Drought-tolerant"], "monsoon": ["Reduce watering", "Ensure drainage"], "winter": ["Resin collection time", "Dormant period"]},
+    "quickFacts": {"family": "Burseraceae", "nativeRegion": "Arid regions of India", "lifespan": "50-70 years", "harvestTime": "Resin in winter", "sunRequirement": "Full sun", "waterNeeds": "Very low (desert plant)", "soilType": "Sandy, rocky, well-draining", "propagation": "Seeds, cuttings"},
+    "ayurvedicProperties": {"rasa": "Bitter, Pungent, Astringent", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Kapha and Vata"},
+    "translations": {"en": {"title": "Guggul", "scientific": "Commiphora wightii", "description": "Sacred resin with powerful cholesterol-lowering and anti-inflammatory properties."}, "mr": {"title": "गुग्गुळ", "scientific": "कॉमिफोरा वाइटी", "description": "कोलेस्टेरॉल कमी करणारे आणि सूज कमी करणारे पवित्र रेझिन."}}
+  },
+  {
+    "title": "Vacha",
+    "scientific": "Acorus calamus",
+    "category": "Medicinal Herb",
+    "description": "Sweet flag is a powerful brain tonic and speech enhancer. Its rhizomes have been used traditionally to improve memory, voice quality, and treat respiratory conditions.",
+    "region": "India, temperate wetlands",
+    "season": "Year-round in wetlands",
+    "plantType": "Perennial Aquatic Herb",
+    "healthBenefits": ["Memory enhancement", "Speech improvement", "Digestive aid", "Respiratory health", "Mental clarity"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-brain", "title": "Brain Tonic", "description": "Enhances memory, concentration, and cognitive abilities"},
+      {"icon": "fas fa-microphone", "title": "Voice Enhancer", "description": "Traditionally used to improve voice quality and speech"},
+      {"icon": "fas fa-lungs", "title": "Respiratory Aid", "description": "Helps with congestion and respiratory issues"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-water", "title": "Aquatic Planting", "description": "Plant rhizomes in shallow water or water-logged soil.", "tips": "Prefers pond edges and marshy areas"},
+      {"icon": "fas fa-tint", "title": "Water Maintenance", "description": "Keep constantly moist or submerged. Thrives in wetlands.", "tips": "Change water regularly if in containers"},
+      {"icon": "fas fa-root", "title": "Rhizome Harvest", "description": "Dig rhizomes after 2-3 years. Clean and dry properly.", "tips": "Harvest in autumn for maximum potency"}
+    ],
+    "traditionalUses": ["Memory tonics", "Speech therapy", "Digestive aids", "Nasal medicines"],
+    "seasonalCare": {"spring": ["New growth emerges", "Divide clumps"], "summer": ["Maintain water level", "Thrives in heat"], "monsoon": ["Natural irrigation", "Peak growth"], "winter": ["Growth slows", "Protect in cold areas"]},
+    "quickFacts": {"family": "Acoraceae", "nativeRegion": "India, temperate Asia", "lifespan": "Perennial", "harvestTime": "Rhizomes after 2-3 years", "sunRequirement": "Full sun to partial shade", "waterNeeds": "Very high (aquatic)", "soilType": "Waterlogged, marshy", "propagation": "Rhizome division"},
+    "ayurvedicProperties": {"rasa": "Pungent, Bitter", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Kapha and Vata"},
+    "translations": {"en": {"title": "Sweet Flag", "scientific": "Acorus calamus", "description": "Powerful brain tonic and speech enhancer with respiratory benefits."}, "mr": {"title": "वेखंड", "scientific": "एकोरस कॅलमस", "description": "मेंदू आणि वाणीसाठी शक्तिशाली टॉनिक."}}
+  },
+  {
+    "title": "Punarnava",
+    "scientific": "Boerhavia diffusa",
+    "category": "Medicinal Herb",
+    "description": "Punarnava means 'that which renews' in Sanskrit. It's a powerful diuretic and rejuvenator, particularly valued for kidney and liver support, and reducing water retention.",
+    "region": "India, tropical regions worldwide",
+    "season": "Monsoon growth",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Kidney support", "Liver health", "Diuretic", "Anti-inflammatory", "Heart health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-kidneys", "title": "Kidney Tonic", "description": "Supports kidney function and reduces water retention naturally"},
+      {"icon": "fas fa-liver", "title": "Liver Support", "description": "Protects and regenerates liver cells"},
+      {"icon": "fas fa-heart", "title": "Heart Health", "description": "Reduces fluid around heart and supports cardiac function"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Sow seeds in monsoon. Germinates quickly in 5-7 days.", "tips": "Can also grow from stem cuttings easily"},
+      {"icon": "fas fa-vine", "title": "Spreading Growth", "description": "Spreads as ground cover. Grows 1-2 feet with pink flowers.", "tips": "Thrives in poor soil; very hardy plant"},
+      {"icon": "fas fa-root", "title": "Whole Plant Harvest", "description": "Use entire plant including roots. Harvest during flowering.", "tips": "Wash roots thoroughly before drying"}
+    ],
+    "traditionalUses": ["Kidney formulations", "Diuretic remedies", "Liver tonics", "Rejuvenation therapy"],
+    "seasonalCare": {"spring": ["New growth starts", "Clear old growth"], "summer": ["Water moderately", "Flowers appear"], "monsoon": ["Peak growth season", "Thrives naturally"], "winter": ["Dies back", "Roots dormant"]},
+    "quickFacts": {"family": "Nyctaginaceae", "nativeRegion": "Tropical India", "lifespan": "Perennial", "harvestTime": "During flowering season", "sunRequirement": "Full sun", "waterNeeds": "Low to moderate", "soilType": "Any soil, tolerates poor conditions", "propagation": "Seeds, stem cuttings"},
+    "ayurvedicProperties": {"rasa": "Bitter, Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Hogweed", "scientific": "Boerhavia diffusa", "description": "Powerful rejuvenator and diuretic for kidney and liver support."}, "mr": {"title": "पुनर्नवा", "scientific": "बोअरहाव्हिया डिफ्युसा", "description": "मूत्रपिंड आणि यकृतासाठी शक्तिशाली पुनर्जीवक औषध."}}
+  },
+  {
+    "title": "Kutki",
+    "scientific": "Picrorhiza kurroa",
+    "category": "Medicinal Herb",
+    "description": "Kutki is a high-altitude Himalayan herb, considered one of the most powerful liver protectors in Ayurveda. It's bitter but highly effective for liver disorders and fever.",
+    "region": "Himalayas (3000-5000m altitude)",
+    "season": "Short summer growing season",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Liver protection", "Fever reducer", "Immune support", "Digestive aid", "Respiratory health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-liver", "title": "Liver Protector", "description": "One of the most powerful hepatoprotective herbs known"},
+      {"icon": "fas fa-thermometer", "title": "Fever Reducer", "description": "Effective for chronic and intermittent fevers"},
+      {"icon": "fas fa-shield-alt", "title": "Immune Booster", "description": "Strengthens immune system and fights infections"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-mountain", "title": "High Altitude", "description": "Requires cool mountain climate. Difficult to grow in plains.", "tips": "Best grown above 3000m altitude"},
+      {"icon": "fas fa-snowflake", "title": "Cold Tolerant", "description": "Grows in rocky alpine meadows. Cold-hardy plant.", "tips": "Needs cold winters for proper growth"},
+      {"icon": "fas fa-root", "title": "Root Harvest", "description": "Harvest rhizomes after 3-4 years. Sustainable collection crucial.", "tips": "Endangered species; cultivate rather than wild-harvest"}
+    ],
+    "traditionalUses": ["Liver formulations", "Fever remedies", "Digestive tonics", "Immune boosters"],
+    "seasonalCare": {"spring": ["Snow melts", "Growth begins"], "summer": ["Short growing season", "Flowers"], "monsoon": ["Alpine rains beneficial"], "winter": ["Dormant under snow", "Extreme cold"]},
+    "quickFacts": {"family": "Plantaginaceae", "nativeRegion": "Western Himalayas", "lifespan": "Perennial", "harvestTime": "Rhizomes after 3-4 years", "sunRequirement": "Full sun (alpine)", "waterNeeds": "Moderate", "soilType": "Rocky, well-draining alpine soil", "propagation": "Seeds, rhizome division"},
+    "ayurvedicProperties": {"rasa": "Bitter", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Kutki", "scientific": "Picrorhiza kurroa", "description": "Powerful Himalayan liver protector and fever reducer."}, "mr": {"title": "कुटकी", "scientific": "पिक्रोराझा कुरोआ", "description": "हिमालयातील शक्तिशाली यकृत संरक्षक औषध."}}
+  },
+  {
+    "title": "Vidanga",
+    "scientific": "Embelia ribes",
+    "category": "Medicinal Herb",
+    "description": "Vidanga is a powerful antiparasitic herb, traditionally used to eliminate intestinal worms. It's also valued for weight management and digestive health.",
+    "region": "India, tropical forests",
+    "season": "Fruits in winter",
+    "plantType": "Climbing Shrub",
+    "healthBenefits": ["Antiparasitic", "Digestive health", "Weight management", "Skin health", "Dental care"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-bug", "title": "Worm Eliminator", "description": "Traditional remedy for intestinal parasites and worms"},
+      {"icon": "fas fa-weight-scale", "title": "Metabolism Booster", "description": "Supports healthy weight loss and fat metabolism"},
+      {"icon": "fas fa-stomach", "title": "Digestive Aid", "description": "Improves digestion and relieves gas and bloating"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-seedling", "title": "Planting", "description": "Plant seeds or cuttings in monsoon. Prefers partial shade.", "tips": "Grows naturally in forest understory"},
+      {"icon": "fas fa-vine", "title": "Climbing Growth", "description": "Provide support for climbing. Can grow 10-15 feet.", "tips": "Slow initial growth; patience required"},
+      {"icon": "fas fa-berry", "title": "Berry Harvest", "description": "Collect ripe black berries in winter. Dry thoroughly.", "tips": "Berries have characteristic pungent taste"}
+    ],
+    "traditionalUses": ["Antiparasitic formulations", "Weight loss aids", "Dental powders", "Digestive remedies"],
+    "seasonalCare": {"spring": ["New growth", "Prune if needed"], "summer": ["Water regularly", "Partial shade beneficial"], "monsoon": ["Peak growth", "Natural irrigation"], "winter": ["Berry harvest", "Reduce watering"]},
+    "quickFacts": {"family": "Primulaceae", "nativeRegion": "Tropical India", "lifespan": "Perennial", "harvestTime": "Berries in winter", "sunRequirement": "Partial shade", "waterNeeds": "Moderate", "soilType": "Moist, humus-rich forest soil", "propagation": "Seeds, stem cuttings"},
+    "ayurvedicProperties": {"rasa": "Pungent, Astringent", "virya": "Heating", "vipaka": "Pungent", "dosha": "Balances Kapha and Vata"},
+    "translations": {"en": {"title": "False Black Pepper", "scientific": "Embelia ribes", "description": "Powerful antiparasitic herb for digestive health and weight management."}, "mr": {"title": "वावडिंग", "scientific": "एम्बेलिया राइब्स", "description": "अंतड्यांतील किडे नष्ट करणारे आणि पचनासाठी उत्तम औषध."}}
+  },
+  {
+    "title": "Yashtimadhu",
+    "scientific": "Glycyrrhiza glabra",
+    "category": "Root Herb",
+    "description": "Also known as Mulethi or Licorice, Yashtimadhu is naturally sweet and has harmonizing properties. It enhances the efficacy of other herbs while providing its own healing benefits.",
+    "region": "Mediterranean, Central Asia",
+    "season": "Roots harvested after 3-4 years",
+    "plantType": "Perennial Herb",
+    "healthBenefits": ["Voice enhancement", "Ulcer healing", "Cough relief", "Skin glow", "Stress relief"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-microphone-alt", "title": "Voice Tonic", "description": "Soothes throat and improves voice quality for singers"},
+      {"icon": "fas fa-stomach", "title": "Ulcer Healer", "description": "Protects and heals stomach and duodenal ulcers"},
+      {"icon": "fas fa-face-smile", "title": "Complexion Enhancer", "description": "Improves skin tone and reduces pigmentation"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-root", "title": "Root Division", "description": "Plant stolon or root cuttings in spring. Deep soil essential.", "tips": "Needs 3-4 feet deep soil for taproot"},
+      {"icon": "fas fa-hourglass", "title": "Long Wait", "description": "Requires 3-4 years before harvest. Slow but worthwhile.", "tips": "Mark plants; easy to forget location"},
+      {"icon": "fas fa-shovel", "title": "Root Harvest", "description": "Dig carefully to get entire root. Wash, peel, and dry.", "tips": "Autumn harvest yields sweetest roots"}
+    ],
+    "traditionalUses": ["Throat lozenges", "Ulcer medicines", "Skin formulations", "Harmonizing agent"],
+    "seasonalCare": {"spring": ["Plant divisions", "New shoots emerge"], "summer": ["Water well", "Mulch heavily"], "monsoon": ["Reduce water", "Good drainage needed"], "winter": ["Dies back", "Roots grow underground"]},
+    "quickFacts": {"family": "Fabaceae", "nativeRegion": "Mediterranean to Central Asia", "lifespan": "Perennial", "harvestTime": "Roots after 3-4 years", "sunRequirement": "Full sun", "waterNeeds": "Moderate", "soilType": "Deep, sandy loam", "propagation": "Root division, stolons"},
+    "ayurvedicProperties": {"rasa": "Sweet", "virya": "Cooling", "vipaka": "Sweet", "dosha": "Balances all three doshas"},
+    "translations": {"en": {"title": "Licorice Root", "scientific": "Glycyrrhiza glabra", "description": "Sweet harmonizing root for voice, ulcers, and skin health."}, "mr": {"title": "जेष्ठमध", "scientific": "ग्लायसिरायझा ग्लाब्रा", "description": "आवाज, व्रण आणि त्वचेसाठी गोड मूळ."}}
+  },
+  {
+    "title": "Chirata",
+    "scientific": "Swertia chirayita",
+    "category": "Medicinal Herb",
+    "description": "Chirata is an intensely bitter herb from the Himalayas, renowned for its powerful fever-reducing and liver-protective properties. It's considered one of the best bitters in Ayurveda.",
+    "region": "Himalayas, temperate regions",
+    "season": "Summer flowering",
+    "plantType": "Annual/Biennial Herb",
+    "healthBenefits": ["Fever reduction", "Liver protection", "Blood purification", "Diabetes support", "Skin health"],
+    "images": [],
+    "status": "published",
+    "medicinalUses": [
+      {"icon": "fas fa-thermometer-half", "title": "Fever Remedy", "description": "Extremely effective for chronic and malarial fevers"},
+      {"icon": "fas fa-liver", "title": "Liver Cleanser", "description": "Detoxifies liver and improves liver enzyme levels"},
+      {"icon": "fas fa-heartbeat", "title": "Blood Sugar", "description": "Helps regulate blood glucose levels naturally"}
+    ],
+    "growingSteps": [
+      {"icon": "fas fa-mountain", "title": "Cool Climate", "description": "Requires temperate mountain climate. Grows at 1200-3000m.", "tips": "Cannot tolerate heat; needs cool temperatures"},
+      {"icon": "fas fa-seedling", "title": "Seed Sowing", "description": "Sow seeds in spring in moist, shaded areas.", "tips": "Very fine seeds; mix with sand for sowing"},
+      {"icon": "fas fa-cut", "title": "Whole Plant Harvest", "description": "Harvest entire plant when flowering. Dry in shade.", "tips": "Bitter taste increases with drying"}
+    ],
+    "traditionalUses": ["Fever remedies", "Digestive bitters", "Liver tonics", "Skin formulations"],
+    "seasonalCare": {"spring": ["Sow seeds", "Prepare beds"], "summer": ["Flowering period", "Keep moist"], "monsoon": ["Protect from excess rain"], "winter": ["Annual cycle complete", "Collect seeds"]},
+    "quickFacts": {"family": "Gentianaceae", "nativeRegion": "Temperate Himalayas", "lifespan": "Annual to biennial", "harvestTime": "During flowering (4-5 months)", "sunRequirement": "Partial shade", "waterNeeds": "Moderate to high", "soilType": "Moist, humus-rich", "propagation": "Seeds"},
+    "ayurvedicProperties": {"rasa": "Bitter", "virya": "Cooling", "vipaka": "Pungent", "dosha": "Balances Pitta and Kapha"},
+    "translations": {"en": {"title": "Chirayita", "scientific": "Swertia chirayita", "description": "Intensely bitter Himalayan herb for fever and liver protection."}, "mr": {"title": "किराईत", "scientific": "स्वर्शिया चिरायिता", "description": "ताप आणि यकृत संरक्षणासाठी अत्यंत कडू हिमालयी औषध."}}
+  }
+]

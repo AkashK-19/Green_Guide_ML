@@ -1,0 +1,14 @@
+anthracnose
+bacterial_spot
+downy_mildew
+early_blight
+healthy
+late_blight
+leaf_curl_virus
+leaf_spot_fungal
+mosaic_virus
+nutrient_deficiency
+powdery_mildew
+root_rot_wilting
+rust_disease
+sooty_mold

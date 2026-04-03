@@ -1,0 +1,15 @@
+node_modules/
+*/node_modules/
+
+backend/uploads/
+
+.env
+.env.*
+
+*.keras
+*.tflite
+
+build/
+dist/
+
+.DS_Store

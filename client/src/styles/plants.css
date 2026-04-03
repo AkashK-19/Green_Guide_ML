@@ -1,0 +1,1058 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+/* HEADER STYLES */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #08c011;
+}
+
+/* NAVIGATION */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.navbar a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #2e7d32;
+    transition: width .3s;
+    margin: auto;
+}
+
+.navbar a:hover {
+    color: #2e7d32;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar a.active {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.navbar a.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #2e7d32;
+}
+
+/* PLANTS PAGE STYLES */
+.plants-page {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #fafafa 0%, #f5f5f5 100%);
+}
+
+/* Hero Search Section */
+.hero-search {
+    background: url('/public/assets/plants/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 3.5rem 1.5rem 4.5rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.2), transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.2), transparent 50%);
+    z-index: 0;
+}
+
+.search-container {
+    position: relative;
+    z-index: 1;
+    padding-top: 7.5rem;
+    max-width: 800px;
+    height: 20rem;
+    margin: 0 auto;
+}
+
+.hero-search h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(45deg, #ffffff, #e8f5e9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-box {
+    display: flex;
+    max-width: 600px;
+    height:4.5rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    border: 2px solid rgba(255,255,255,0.2);
+    transition: all 0.3s ease;
+}
+
+.search-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+}
+
+.search-box:focus-within {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(46, 125, 50, 0.3);
+}
+
+.search-box input {
+    flex: 1;
+    padding: 20px 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    color: #333;
+    font-weight: 500;
+}
+
+.search-box input::placeholder {
+    color: #666;
+    font-weight: 400;
+}
+
+.search-btn {
+    padding:20px 30px;
+    margin:0.1px;
+    background: linear-gradient(135deg, #43a047, #2e7d32);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius:10% ;
+}
+
+.search-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.search-btn:hover::before {
+    left: 100%;
+}
+
+.search-btn:hover {
+    background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    transform: scale(1.05);
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Enhanced Filter Section */
+.filter-section {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 150px;
+    flex: 1;
+    position: relative;
+    z-index: 10;
+}
+
+.filter-group label {
+    color: #2e7d32;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter-group select {
+    padding: 12px 15px;
+    border: 2px solid #e8f5e9;
+    border-radius: 12px;
+    background: white;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    z-index: 10;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232e7d32' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+.filter-group select:focus {
+    border-color: #43a047;
+    box-shadow: 0 0 0 3px rgba(67, 160, 71, 0.2);
+    transform: scale(1.02);
+    z-index: 20;
+}
+
+.filter-group select:hover {
+    border-color: #2e7d32;
+    background-color: #fafafa;
+}
+
+.clear-filters-btn {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    min-width: 120px;
+    height: fit-content;
+    align-self: flex-end;
+    z-index: 10;
+}
+
+.clear-filters-btn:hover {
+    background: linear-gradient(135deg, #ee5a24, #c44569);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+}
+
+/* Header Section */
+.plants-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 5;
+}
+
+.plants-header h2 {
+    color: #1b5e20;
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #1b5e20, #2e7d32, #43a047);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.plant-count {
+    color: #666;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sort-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    z-index: 5;
+}
+
+.sort-options label {
+    color: #2e7d32;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sort-options select {
+    padding: 12px 20px;
+    border: 2px solid #e8f5e9;
+    border-radius: 25px;
+    background: white;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232e7d32' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 16px;
+    padding-right: 45px;
+}
+
+.sort-options select:focus {
+    border-color: #43a047;
+    box-shadow: 0 0 0 3px rgba(67, 160, 71, 0.2);
+    transform: scale(1.05);
+}
+
+.sort-options select:hover {
+    border-color: #2e7d32;
+    background-color: #fafafa;
+}
+
+/* Plant Grid */
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* No Results Message */
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #555;
+    padding: 3rem 1rem;
+}
+
+.no-results h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+}
+
+/* Plant Card */
+.plant-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(1rem);
+    border-radius: 1.25rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    border: 0.125rem solid transparent;
+    position: relative;
+    min-height: 22rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fav-btn {
+  all: unset;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #fff;
+  color: #bbb;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 2;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.fav-btn:hover {
+  color: #e53935;
+  transform: scale(1.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+.fav-btn.active {
+  color: #e53935;
+}
+
+.plant-card {
+    position: relative; 
+     overflow: hidden;
+}
+
+/* Hover Glow Effect */
+.plant-card:hover {
+    transform: translateY(-0.5rem) scale(1.02);
+    box-shadow: 0 1.25rem 2.5rem rgba(46, 125, 50, 0.2);
+    border-color: rgba(67, 160, 71, 0.4);
+}
+
+/* Plant Image */
+.plant-image {
+    position: relative;
+    height: 14rem;
+    overflow: hidden;
+    border-radius: 1rem 1rem 0 0;
+    flex-shrink: 0;
+}
+
+.plant-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    object-position: center;
+    filter: brightness(1.1) contrast(1.1);
+}
+
+.plant-card:hover .plant-image img {
+    transform: scale(1.08);
+}
+
+/* Subtle overlay */
+.image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), transparent 50%);
+    z-index: 1;
+}
+
+/* Plant Content */
+.plant-content {
+    padding: 1rem 1.25rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    z-index: 2;
+    height: 100px;
+    min-height: 100px;
+}
+
+/* Plant Names */
+.plant-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2e7d32;
+    margin: 0;
+    line-height: 1.4;
+    background: linear-gradient(135deg, #1b5e20, #2e7d32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.plant-scientific {
+    font-size: 1rem;
+    font-style: italic;
+    color: #777;
+    margin: 0;
+    line-height: 1.3;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* No Results */
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 24px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    border: 2px dashed #e8f5e9;
+}
+
+.no-results h3 {
+    color: #2e7d32;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.no-results p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.pagination-btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #e8f5e9;
+    background: rgba(255, 255, 255, 0.9);
+    color: #666;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    font-size: 16px;
+    backdrop-filter: blur(10px);
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #43a047, #2e7d32);
+    color: white;
+    border-color: #2e7d32;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(46, 125, 50, 0.3);
+}
+
+.pagination-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.pagination-btn.active {
+    background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    color: white;
+    border-color: #2e7d32;
+    box-shadow: 0 5px 20px rgba(46, 125, 50, 0.4);
+}
+
+.page-numbers {
+    display: flex;
+    gap: 8px;
+}
+
+
+/* Loading States */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 18px;
+    color: #2e7d32;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e8f5e9;
+    border-top: 4px solid #43a047;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+.error-container {
+    padding: 2rem;
+    text-align: center;
+    color: #d32f2f;
+    font-size: 18px;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animations */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .plant-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    
+    .plant-card {
+        max-width: 320px;
+        height: 300px;
+    }
+    
+    .plant-image {
+        height: 200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 15px 30px;
+    }
+    
+    .logo span {
+        font-size: 20px;
+    }
+    
+    .navbar ul {
+        gap: 20px;
+    }
+    
+    .filter-row {
+        gap: 15px;
+    }
+    
+    .filter-group {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+        position: static;
+    }
+    
+    .navbar ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .hero-search {
+        padding: 60px 15px 40px;
+    }
+    
+    .hero-search h1 {
+        font-size: 36px;
+    }
+    
+    .search-box {
+        flex-direction: column;
+        border-radius: 20px;
+        max-width: 500px;
+    }
+    
+    .search-btn {
+        border-radius: 0 0 18px 18px;
+        padding: 15px 30px;
+    }
+    
+    .main-content {
+        padding: 20px 15px;
+    }
+    
+    .filter-section {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .filter-row {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+    
+    .filter-group {
+        min-width: auto;
+    }
+    
+    .clear-filters-btn {
+        align-self: center;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .plants-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .plants-header h2 {
+        font-size: 24px;
+    }
+    
+    .plant-grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+    }
+    
+    .plant-card {
+        max-width: 340px;
+        height: 340px;
+    }
+    
+    .plant-image {
+        height: 200px;
+    }
+    
+    .plant-content {
+        padding: 20px;
+        height: 140px;
+    }
+    
+    .pagination {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .pagination-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 12px 15px;
+    }
+    
+    .logo img {
+        height: 35px;
+    }
+    
+    .logo span {
+        font-size: 18px;
+    }
+    
+    .navbar ul {
+        gap: 12px;
+        font-size: 14px;
+    }
+    
+    .hero-search {
+        padding: 40px 10px 30px;
+    }
+    
+    .hero-search h1 {
+        font-size: 28px;
+    }
+    
+    .search-box {
+        max-width: 100%;
+    }
+    
+    .search-box input {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    
+    .search-btn {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    
+    .filter-section {
+        padding: 15px;
+    }
+    
+    .filter-group select {
+        padding: 10px 12px;
+        font-size: 13px;
+        padding-right: 35px;
+    }
+    
+    .clear-filters-btn {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    
+    .plants-header {
+        padding: 20px 15px;
+    }
+    
+    .plants-header h2 {
+        font-size: 20px;
+    }
+    
+    .plant-count {
+        font-size: 16px;
+    }
+    
+    .sort-options {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .sort-options select {
+        padding: 10px 15px;
+        font-size: 14px;
+        padding-right: 40px;
+    }
+    
+    .plant-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .plant-card {
+        border-radius: 15px;
+        max-width: 100%;
+        height: 260px;
+    }
+    
+    .plant-image {
+        height: 160px;
+        border-radius: 13px 13px 0 0;
+    }
+    
+    .plant-content {
+        padding: 15px;
+        height: 100px;
+    }
+    
+    .plant-name {
+        font-size: 16px;
+    }
+    
+    .plant-scientific {
+        font-size: 13px;
+    }
+    
+    .favorite-btn {
+        top: 10px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .favorite-btn .heart-icon {
+        font-size: 18px;
+    }
+    
+    .pagination {
+        padding: 15px;
+    }
+    
+    .pagination-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
+    .no-results {
+        padding: 40px 20px;
+    }
+    
+    .no-results h3 {
+        font-size: 20px;
+    }
+    
+    .no-results p {
+        font-size: 14px;
+    }
+}
+
+/* Additional Grid Responsiveness for Better Card Distribution */
+@media (min-width: 1600px) {
+    .plant-grid {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1800px) {
+    .plant-grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+}
+
+/* Ensure cards maintain aspect ratio */
+@media (max-width: 320px) {
+    .plant-card {
+        height: 240px;
+    }
+    
+    .plant-image {
+        height: 140px;
+    }
+    
+    .plant-content {
+        height: 100px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .hero-search,
+    .filter-section,
+    .pagination,
+    .favorite-btn {
+        display: none;
+    }
+    
+    .plant-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    .plant-card:hover {
+        transform: none;
+    }
+    
+    .plant-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+/* Sticky Footer CSS - Add this to your plants.css or main CSS file */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+}
+
+/* Ensure error/loading pages take up space to push footer down */
+.error-container,
+.loading-container {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

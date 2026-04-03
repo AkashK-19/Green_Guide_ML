@@ -1,0 +1,941 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  background: #f8fffe;
+  overflow-x: hidden;
+}
+
+/* Main Container */
+.subscribe-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f3fef6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Loading State */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.loading-container .loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #e5e7eb;
+  border-top: 4px solid #16a34a;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-container p {
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+/* Hero Section */
+.subscribe-hero {
+  width: 100%;
+  min-height: 450px;
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 50%, #15803d 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 80px 20px;
+}
+
+.subscribe-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.subscribe-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease;
+}
+
+.subscribe-hero p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  animation: fadeInUp 1.2s ease;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Current Subscription Banner */
+.current-subscription-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  margin-top: 0;
+  animation: fadeInUp 1.4s ease;
+}
+
+.current-subscription-banner i {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+.current-subscription-banner div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.current-subscription-banner strong {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.current-subscription-banner span {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Pricing Section */
+.pricing-section {
+  width: 100%;
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f0fdf4 0%, #dcfce7 100%);
+}
+
+.pricing-section > .container {
+  max-width: 600px;
+}
+
+/* Section Header */
+.pricing-section h2 {
+  text-align: center;
+  color: #16a34a;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+.pricing-section > .container > p {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Billing Toggle */
+.billing-toggle {
+  display: inline-flex;
+  height: 70px;
+  width: 450px;
+  background: #e5e7eb;
+  border-radius: 50px;
+  padding: 4px;
+  margin: 0 8px 0 8px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  gap: 0;
+}
+
+.billing-toggle-btn {
+  position: relative;
+  width: 150px;
+  padding: 10px 24px;
+  background: transparent;
+  border: none;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0;
+}
+
+.billing-toggle-btn:hover:not(.active) {
+  background: #225d35a0;
+  color: #ffffff;
+}
+
+.billing-toggle-btn.active {
+  background: #188c43;
+  color: #e4ebe6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* Pricing Card */
+.pricing-card {
+  background: white;
+  border: 3px solid #16a34a;
+  border-radius: 24px;
+  padding: 45px 40px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  max-width: 480px;
+  width: 100%;
+}
+
+.pricing-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #16a34a, #22c55e, #16a34a);
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Plan Header */
+.plan-header {
+  margin-bottom: 30px;
+}
+
+.plan-header h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #16a34a;
+  margin-bottom: 0;
+}
+
+/* Plan Price */
+.plan-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.plan-price .currency {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #16a34a;
+  margin-right: 5px;
+}
+
+.plan-price .amount {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #16a34a;
+  line-height: 1;
+}
+
+.plan-price .period {
+  font-size: 1.3rem;
+  color: #6b7280;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+/* Billed Text */
+.billed-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Plan Discount */
+.plan-discount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+.original-price {
+  font-size: 1.1rem;
+  color: #9ca3af;
+  text-decoration: line-through;
+}
+
+.discount-badge {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: white;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.3);
+}
+
+/* Premium Features Title */
+.pricing-card h4 {
+  text-align: center;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+/* Plan Features */
+.plan-features {
+  list-style: none;
+  text-align: left;
+  margin: 30px 0;
+  padding: 0;
+}
+
+.plan-features li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.plan-features li i {
+  color: #16a34a;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dcfce7;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+/* Plan Button */
+.plan-button {
+  width: 100%;
+  padding: 18px 32px;
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  box-shadow: 0 4px 15px rgba(22, 163, 74, 0.3);
+}
+
+.plan-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.plan-button:hover:not(:disabled)::before {
+  left: 100%;
+}
+
+.plan-button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(22, 163, 74, 0.3);
+}
+
+.plan-button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.plan-button.selected {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  box-shadow: 0 8px 20px rgba(22, 163, 74, 0.3);
+}
+
+/* Features Section */
+.features-section {
+  width: 100%;
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f3fef6 0%, #f0fdf4 100%);
+}
+
+.features-section h2 {
+  text-align: center;
+  color: #16a34a;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background: white;
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(22, 163, 74, 0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  border-color: #16a34a;
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.feature-card h3 {
+  color: #1f2937;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #6b7280;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+/* NEW FAQ SECTION - UNIQUE CLASSES */
+.subscribe-faq-wrapper {
+  width: 100%;
+  padding: 80px 0;
+  background: linear-gradient(180deg, #f8fffe 0%, #f0fdf4 100%);
+}
+
+.subscribe-faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subscribe-faq-title {
+  text-align: center;
+  color: #16a34a;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+}
+
+.subscribe-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.subscribe-faq-box {
+  background: white;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(22, 163, 74, 0.08);
+  transition: all 0.3s ease;
+  height: auto;
+}
+
+.subscribe-faq-box:hover {
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.subscribe-faq-trigger {
+  width: 100%;
+  padding: 16px 22px;
+  background: white;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.subscribe-faq-trigger:hover {
+  background: rgba(22, 163, 74, 0.02);
+}
+
+.subscribe-faq-box-open .subscribe-faq-trigger {
+  background: white;
+}
+
+.subscribe-faq-question-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.2;
+  flex: 1;
+  padding-right: 12px;
+  margin: 0;
+}
+
+.subscribe-faq-box-open .subscribe-faq-question-text {
+  color: #1f2937;
+}
+
+.subscribe-faq-chevron {
+  color: #16a34a;
+  font-size: 1.05rem;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.subscribe-faq-box-open .subscribe-faq-chevron {
+  transform: rotate(180deg);
+}
+
+.subscribe-faq-content {
+  padding: 0 22px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  background: white;
+}
+
+.subscribe-faq-box-open .subscribe-faq-content {
+  padding: 0 22px 16px;
+  max-height: 200px;
+}
+
+.subscribe-faq-answer-text {
+  margin: 0;
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Auth Prompt Modal */
+.auth-prompt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease;
+  padding: 20px;
+}
+
+.auth-prompt-modal {
+  background: white;
+  border-radius: 24px;
+  padding: 45px;
+  max-width: 480px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.4s ease;
+  border: 1px solid rgba(22, 163, 74, 0.1);
+}
+
+.close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.close-modal:hover {
+  background: #ef4444;
+  color: white;
+  transform: rotate(90deg);
+}
+
+.auth-prompt-content {
+  text-align: center;
+}
+
+.auth-icon {
+  font-size: 4rem;
+  color: #16a34a;
+  margin-bottom: 20px;
+  display: block;
+  animation: bounce 1s ease infinite;
+}
+
+.auth-prompt-content h3 {
+  color: #1f2937;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.auth-prompt-content p {
+  color: #6b7280;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.auth-prompt-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.auth-btn {
+  flex: 1;
+  min-width: 140px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.signin-btn {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: white;
+}
+
+.signin-btn:hover {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(22, 163, 74, 0.3);
+}
+
+.signup-btn {
+  background: white;
+  color: #16a34a;
+  border: 2px solid #16a34a;
+}
+
+.signup-btn:hover {
+  background: #f0fdf4;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(22, 163, 74, 0.15);
+}
+
+/* Success Modal */
+.success-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease;
+}
+
+.success-modal {
+  background: white;
+  border-radius: 24px;
+  padding: 50px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.4s ease;
+}
+
+.success-animation {
+  margin-bottom: 25px;
+}
+
+.success-animation i {
+  font-size: 5rem;
+  color: #16a34a;
+  animation: scaleIn 0.6s ease;
+}
+
+.success-modal h2 {
+  color: #1f2937;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.success-modal p {
+  color: #6b7280;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(40px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .subscribe-hero {
+    min-height: 380px;
+    padding: 60px 20px;
+  }
+
+  .subscribe-hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .pricing-section > .container {
+    max-width: 100%;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+    padding: 40px 30px;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 640px) {
+  .subscribe-hero {
+    min-height: 350px;
+    padding: 50px 20px;
+  }
+
+  .subscribe-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .subscribe-hero p {
+    font-size: 1rem;
+  }
+
+  .current-subscription-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  .current-subscription-banner div {
+    text-align: center;
+  }
+
+  .pricing-section h2 {
+    font-size: 2rem;
+  }
+
+  .billing-toggle {
+    flex-wrap: wrap;
+    padding: 4px;
+  }
+
+  .billing-toggle-btn {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+
+  .pricing-card {
+    padding: 35px 25px;
+  }
+
+  .plan-price .amount {
+    font-size: 3.5rem;
+  }
+
+  .plan-price .currency {
+    font-size: 1.5rem;
+  }
+
+  .features-section h2,
+  .subscribe-faq-title {
+    font-size: 2rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-prompt-modal {
+    padding: 35px 25px;
+    margin: 20px;
+  }
+
+  .auth-prompt-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .auth-prompt-buttons {
+    flex-direction: column;
+  }
+
+  .auth-btn {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .success-modal {
+    padding: 40px 30px;
+  }
+
+  .success-modal h2 {
+    font-size: 1.6rem;
+  }
+
+  .subscribe-faq-trigger {
+    padding: 14px 18px;
+  }
+
+  .subscribe-faq-question-text {
+    font-size: 0.95rem;
+  }
+
+  .subscribe-faq-answer-text {
+    font-size: 0.9rem;
+    padding: 0 18px 14px 18px;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
