@@ -104,5 +104,15 @@ npm run dev
 
 ---
 
+## 🧬 Specialized Disease Detection (Streamlit)
+*Integrated from `Plant_Disease_Detection`*
+
+This project also includes a standalone Streamlit application for 38 disease classes.
+- **Location:** `backend/ml_server` (or root depending on merge structure)
+- **Run:** `streamlit run main.py`
+- **Features:** Covers 38 diseases including Apple, Corn, Grape, Potato, Tomato, and more.
+
+---
+
 ## 📝 License
 ISC License - See individual package files for details.

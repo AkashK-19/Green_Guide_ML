@@ -1,15 +1,34 @@
+# Node.js
 node_modules/
 */node_modules/
 
-backend/uploads/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+ENV/
 
+# Project Specific
+backend/uploads/
 .env
 .env.*
-
 *.keras
 *.tflite
+*.h5
 
+# Build/Dist
 build/
 dist/
 
+# IDE / OS
 .DS_Store
+Thumbs.db
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Streamlit
+.streamlit/
+static/
