@@ -65,9 +65,9 @@ async function fetchInsight(disease) {
 function parseInsight(raw) {
   if (!raw) return null;
   const sections = { what: '', why: '', how: '' };
-  const whatMatch = raw.match(/\*\*What it is:\*\*\s*([^\n*]+)/i);
-  const whyMatch  = raw.match(/\*\*Why it happens:\*\*\s*([^\n*]+)/i);
-  const howMatch  = raw.match(/\*\*How to control it:\*\*\s*([^\n*]+)/i);
+  const whatMatch = raw.match(/\*\*What it is:\*\*\s*([\s\S]*?)(?=\*\*|$)/i);
+  const whyMatch  = raw.match(/\*\*Why it happens:\*\*\s*([\s\S]*?)(?=\*\*|$)/i);
+  const howMatch  = raw.match(/\*\*How to control it:\*\*\s*([\s\S]*?)(?=\*\*|$)/i);
   if (whatMatch) sections.what = whatMatch[1].trim();
   if (whyMatch)  sections.why  = whyMatch[1].trim();
   if (howMatch)  sections.how  = howMatch[1].trim();
@@ -223,22 +223,6 @@ function FloatingChatbot() {
               </div>
             </div>
 
-            {/* ── Close button — WHITE X, always visible ── */}
-            <button
-              className="gb-x"
-              onClick={() => setOpen(false)}
-              aria-label="Close chat"
-              type="button"
-            >
-              <svg
-                width="14" height="14"
-                viewBox="0 0 14 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M1 1L13 13M13 1L1 13" stroke="white" strokeWidth="2.2" strokeLinecap="round"/>
-              </svg>
-            </button>
           </div>
 
           {/* ── Messages ── */}
@@ -344,7 +328,6 @@ function FloatingChatbot() {
               <span className="gb-fab-title">GreenBot</span>
               <span className="gb-fab-sub">Plant care assistant</span>
             </div>
-            <div className="gb-fab-ping" />
           </>
         )}
       </button>
@@ -967,16 +950,16 @@ export default function AITools() {
 
         {/* Tab switcher */}
         <div className="ait-tabs">
-  {TABS.map(t => (
-    <button
-      key={t.id}
-      className={`ait-tab-btn${activeTab === t.id ? ' active' : ''}`}
-      onClick={() => setActiveTab(t.id)}
-    >
-      {t.label}
-    </button>
-  ))}
-</div>
+          {TABS.map(t => (
+            <button
+              key={t.id}
+              className={`ait-tab-btn${activeTab === t.id ? ' active' : ''}`}
+              onClick={() => setActiveTab(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
 
         {/* Hero — updates per tab */}
         <div className="ait-hero">
